@@ -1,0 +1,13 @@
+{
+  "experiment": "GZ-AI-LIFECYCLE",
+  "component": "SUPERVISOR",
+  "version": "0.1",
+  "run_id": "GZ_SUPERVISOR_20261101_071154",
+  "start_utc": "2026-11-01T10:11:54.874388+00:00",
+  "end_utc": "2026-11-01T10:13:50.723320+00:00",
+  "samples": 24,
+  "duration_seconds": 120,
+  "ollama_api_available_samples": 24,
+  "loaded_model_observations": 0,
+  "interpretation": "Passive system observation only. No model prompts or model-loading requests were issued."
+}

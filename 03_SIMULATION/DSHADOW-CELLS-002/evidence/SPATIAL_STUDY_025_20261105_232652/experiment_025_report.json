@@ -1,0 +1,100 @@
+{
+  "experiment": "025_LIVE_PERIODICITY_REVALIDATION",
+  "rule": 110,
+  "generation": 511660,
+  "active_cells": 302381,
+  "minimum_coordinate": -511680,
+  "maximum_coordinate": 19,
+  "spatial_span": 511700,
+  "density": 0.5909341410982998,
+  "tested_period": 160,
+  "comparisons": 511540,
+  "matches": 472720,
+  "mismatches": 38820,
+  "match_rate": 0.9241115064315596,
+  "exact_segment_count": 15696,
+  "mismatch_segment_count": 15696,
+  "longest_exact_segment": {
+    "start": -511557,
+    "end": -71329,
+    "length": 440229
+  },
+  "longest_mismatch_segment": {
+    "start": -71172,
+    "end": -71164,
+    "length": 9
+  },
+  "top_10_lags": [
+    {
+      "lag": 160,
+      "comparisons": 511540,
+      "matches": 472720,
+      "mismatches": 38820,
+      "match_rate": 0.9241115064315596
+    },
+    {
+      "lag": 262,
+      "comparisons": 511438,
+      "matches": 422613,
+      "mismatches": 88825,
+      "match_rate": 0.8263230342680833
+    },
+    {
+      "lag": 102,
+      "comparisons": 511598,
+      "matches": 405414,
+      "mismatches": 106184,
+      "match_rate": 0.7924464130039601
+    },
+    {
+      "lag": 218,
+      "comparisons": 511482,
+      "matches": 402073,
+      "mismatches": 109409,
+      "match_rate": 0.7860941342999362
+    },
+    {
+      "lag": 58,
+      "comparisons": 511642,
+      "matches": 401865,
+      "mismatches": 109777,
+      "match_rate": 0.7854417737402324
+    },
+    {
+      "lag": 276,
+      "comparisons": 511424,
+      "matches": 377793,
+      "mismatches": 133631,
+      "match_rate": 0.7387079996245777
+    },
+    {
+      "lag": 14,
+      "comparisons": 511686,
+      "matches": 376889,
+      "mismatches": 134797,
+      "match_rate": 0.7365630484320462
+    },
+    {
+      "lag": 116,
+      "comparisons": 511584,
+      "matches": 361022,
+      "mismatches": 150562,
+      "match_rate": 0.7056944705072872
+    },
+    {
+      "lag": 204,
+      "comparisons": 511496,
+      "matches": 358536,
+      "mismatches": 152960,
+      "match_rate": 0.7009556281965059
+    },
+    {
+      "lag": 44,
+      "comparisons": 511656,
+      "matches": 357246,
+      "mismatches": 154410,
+      "match_rate": 0.6982152070922651
+    }
+  ],
+  "snapshot_sha256": "65a7c8c82c35dc9d9a0cddde02b93eb4539a66624920949f1826c6094d510b2c"
+}

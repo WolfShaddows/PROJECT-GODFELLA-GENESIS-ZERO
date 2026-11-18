@@ -1,0 +1,26 @@
+  Model
+    architecture        qwen3                 
+    parameters          8.2B                  
+    context length      131072                
+    embedding length    4096                  
+    quantization        Q4_K_M                
+    template source     gguf_chat_template    
+
+  Capabilities
+    tools         
+    thinking      
+    completion    
+
+  Parameters
+    temperature    0.6                          
+    top_p          0.95                         
+    stop           "<´¢£beginÔûüofÔûüsentence´¢£>"    
+    stop           "<´¢£endÔûüofÔûüsentence´¢£>"      
+    stop           "<´¢£User´¢£>"                 
+    stop           "<´¢£Assistant´¢£>"            
+
+  License
+    MIT License                    
+    Copyright (c) 2023 DeepSeek    
+    ...                            
+

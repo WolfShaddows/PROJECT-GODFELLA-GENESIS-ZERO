@@ -1,0 +1,4 @@
+﻿rule,transient,period,cycles_analyzed,transitions_analyzed,mean_components,candidate_edges,split_parent_events,merge_child_events,jaccard_threshold,max_shift
+67,702,512,2,1024,56.0,27648,0,0,0.5,3
+109,1482,2760,2,5520,68.828986,356970,96214,98750,0.5,3
+137,1058,960,2,1920,54.266667,108672,33920,8064,0.5,3

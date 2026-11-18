@@ -1,0 +1,11 @@
+{
+    "model": "Flat Lambda-CDM",
+    "H0_km_s_Mpc": 67.4,
+    "omega_m": 0.315,
+    "omega_r": 9e-05,
+    "omega_lambda": 0.68491,
+    "omega_k": 0.0,
+    "age_gyr": 13.790811218995213,
+    "samples": 500,
+    "status": "COMPLETED"
+}

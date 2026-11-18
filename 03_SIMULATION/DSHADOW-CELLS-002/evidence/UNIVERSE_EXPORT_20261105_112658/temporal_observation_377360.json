@@ -1,0 +1,16 @@
+{
+  "experiment": "DSHADOW-CELLS-002",
+  "observation_type": "external_dashboard_telemetry",
+  "source": "Dashboard screenshot supplied by user",
+  "observed_at": "2026-11-05T15:27:00-03:00",
+  "generation": 377360,
+  "rule": 110,
+  "active_cells": 223011,
+  "components": 82345,
+  "spatial_span": 377400,
+  "coordinate_min": -377380,
+  "coordinate_max": 19,
+  "engine_status": "RUNNING",
+  "last_checkpoint_generation": 375000,
+  "observer_time_seconds": 32001.8
+}

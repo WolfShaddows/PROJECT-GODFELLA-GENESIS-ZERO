@@ -1,0 +1,69 @@
+{
+  "experiment": "018A_SPATIAL_GEOMETRY",
+  "rule": 110,
+  "generation": 284970,
+  "active_cells": 168417,
+  "reconstructed_components": 62181,
+  "reconstructed_gaps": 62180,
+  "component_length_sum": 168417.0,
+  "gap_length_sum": 116593.0,
+  "component_count_matches_previous": true,
+  "first_coordinate": -284990,
+  "last_coordinate": 19,
+  "top_20_components": [
+    {
+      "length": 1,
+      "frequency": 18134
+    },
+    {
+      "length": 2,
+      "frequency": 18133
+    },
+    {
+      "length": 5,
+      "frequency": 18129
+    },
+    {
+      "length": 3,
+      "frequency": 7779
+    },
+    {
+      "length": 4,
+      "frequency": 3
+    },
+    {
+      "length": 6,
+      "frequency": 2
+    },
+    {
+      "length": 11,
+      "frequency": 1
+    }
+  ],
+  "top_20_gaps": [
+    {
+      "length": 1,
+      "frequency": 25909
+    },
+    {
+      "length": 2,
+      "frequency": 18136
+    },
+    {
+      "length": 3,
+      "frequency": 18131
+    },
+    {
+      "length": 4,
+      "frequency": 2
+    },
+    {
+      "length": 5,
+      "frequency": 1
+    },
+    {
+      "length": 6,
+      "frequency": 1
+    }
+  ]
+}

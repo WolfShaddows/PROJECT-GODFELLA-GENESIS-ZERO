@@ -1,0 +1,66 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261106140956
+Nombre de usuario: DESKTOP-44LFA4U\PC
+Usuario RunAs: DESKTOP-44LFA4U\PC
+Nombre de la configuración: 
+Máquina: DESKTOP-44LFA4U (Microsoft Windows NT 10.0.26300.0)
+Aplicación host: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File .\RUN_EXPERIMENT_042.ps1
+Id. de proceso: 23784
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+============================================================
+ EXPERIMENT 042 - THE 6400 OFFSET INVESTIGATION
+============================================================
+
+[SOURCE] Matrix:
+C:\Users\PC\Desktop\PROJECT GODFELLA\03_SIMULATION\DSHADOW-CELLS-002\evidence\SPACETIME_038_20261106_102543\038_spacetime_matrix.npz
+
+[INTEGRITY] Matrix SHA256:
+DF84B96A7D192C96CB191BFECF660F629115E0559D602067435080CD41983CB1
+
+[INTEGRITY] Frozen snapshot SHA256:
+01705A4985358CD6E532A537F4F33B23E81FC2C799D1AF3591670371FCD32907
+
+
+[EXECUTION] Running Python forensic analysis...
+
+{'offset': 7, 'profile_correlation': 0.8831965870161527}
+{'offset': 1067, 'profile_correlation': 0.8817681469080384}
+{'offset': 1066, 'profile_correlation': 0.8817144129211215}
+{'offset': 8, 'profile_correlation': 0.8811204523500464}
+
+[OUTPUT] C:\Users\PC\Desktop\PROJECT GODFELLA\03_SIMULATION\DSHADOW-CELLS
+-002\evidence\OFFSET_INVESTIGATION_042_20261106_140956
+[RUNTIME] 1.345 seconds
+[STATUS] ANALYSIS COMPLETED
+
+[INTEGRITY] Checking original files...
+
+MATRIX UNCHANGED: True
+SNAPSHOT UNCHANGED: True
+
+MATRIX SHA256 AFTER:
+DF84B96A7D192C96CB191BFECF660F629115E0559D602067435080CD41983CB1
+
+SNAPSHOT SHA256 AFTER:
+01705A4985358CD6E532A537F4F33B23E81FC2C799D1AF3591670371FCD32907
+
+============================================================
+ EXPERIMENT 042 COMPLETED
+============================================================
+
+OUTPUT DIRECTORY:
+C:\Users\PC\Desktop\PROJECT GODFELLA\03_SIMULATION\DSHADOW-CELLS-002\evidence\OFFSET_INVESTIGATION_042_20261106_140956
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20261106140958
+**********************

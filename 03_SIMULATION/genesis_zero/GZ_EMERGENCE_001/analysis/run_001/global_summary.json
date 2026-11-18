@@ -1,0 +1,11 @@
+{
+  "experiment": "GZ-EMERGENCE-001",
+  "rules_analyzed": 256,
+  "cycles_per_rule": 10000,
+  "analysis_failures": 0,
+  "terminal_fixed_rules": 74,
+  "exact_period_detected_rules": 240,
+  "non_fixed_terminal_rules": 182,
+  "interpretation": "Descriptive analysis only. Information proxies do not establish functional memory, computation, intelligence, or consciousness.",
+  "elapsed_seconds": 64.1907148361206
+}

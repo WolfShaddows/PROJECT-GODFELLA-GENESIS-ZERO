@@ -1,0 +1,157 @@
+{
+  "experiment": "DSHADOW-CELLS-002",
+  "snapshot_generation": 284970,
+  "snapshot_active_cells": 168417,
+  "snapshot_unique_cells": true,
+  "snapshot_min_x": -284990,
+  "snapshot_max_x": 19,
+  "snapshot_span": 285010,
+  "snapshot_components": 62181,
+  "snapshot_occupancy_percent": 59.091610820672955,
+  "persistence_structural": {
+    "component_count": 62181,
+    "mean_component_length": 2.708496164423216,
+    "median_component_length": 2,
+    "maximum_component_length": 11,
+    "maximum_component_length_frequency": 1,
+    "temporal_cell_identity_tracking_available": false
+  },
+  "spatial_correlation": {
+    "method": "binary occupancy autocorrelation",
+    "density": 0.5909161082067296,
+    "lags": [
+      {
+        "lag": 1,
+        "joint_probability": 0.37274612380661665,
+        "correlation": 0.09748008720307877
+      },
+      {
+        "lag": 2,
+        "joint_probability": 0.30910711278279906,
+        "correlation": -0.16578011716290927
+      },
+      {
+        "lag": 3,
+        "joint_probability": 0.35635615967327117,
+        "correlation": 0.02967851018484264
+      },
+      {
+        "lag": 4,
+        "joint_probability": 0.3672870044841161,
+        "correlation": 0.07489694448324721
+      },
+      {
+        "lag": 5,
+        "joint_probability": 0.272658374414484,
+        "correlation": -0.3165603093336179
+      },
+      {
+        "lag": 8,
+        "joint_probability": 0.3256398200714381,
+        "correlation": -0.09738804397526596
+      },
+      {
+        "lag": 10,
+        "joint_probability": 0.3723719298245614,
+        "correlation": 0.09593213127787564
+      },
+      {
+        "lag": 16,
+        "joint_probability": 0.3312806585401798,
+        "correlation": -0.07405317022116746
+      },
+      {
+        "lag": 20,
+        "joint_probability": 0.3797712200428085,
+        "correlation": 0.12654132245920857
+      },
+      {
+        "lag": 32,
+        "joint_probability": 0.3607576725220894,
+        "correlation": 0.04788657397241059
+      },
+      {
+        "lag": 50,
+        "joint_probability": 0.3273827905670971,
+        "correlation": -0.09017776899598712
+      },
+      {
+        "lag": 64,
+        "joint_probability": 0.3978753869154156,
+        "correlation": 0.2014341687508444
+      },
+      {
+        "lag": 100,
+        "joint_probability": 0.323951423256467,
+        "correlation": -0.10437255997275416
+      },
+      {
+        "lag": 128,
+        "joint_probability": 0.35637562218743196,
+        "correlation": 0.02975902220684011
+      }
+    ]
+  },
+  "fragmentation": {
+    "component_count": 62181,
+    "nonzero_gaps": 62180,
+    "mean_gap": 0.6922917062511875,
+    "maximum_gap": 6,
+    "gap_frequency": {
+      "0": 106236,
+      "1": 25909,
+      "2": 18136,
+      "3": 18131,
+      "4": 2,
+      "5": 1,
+      "6": 1
+    },
+    "historical_component_lineage_available": false
+  },
+  "temporal_dynamics": {
+    "historical_records": 28736,
+    "generation": {
+      "first": 0,
+      "last": 287350,
+      "absolute_change": 287350,
+      "relative_change_percent": null,
+      "minimum": 0,
+      "maximum": 287350,
+      "mean": 143675.0
+    },
+    "active_cells": {
+      "first": 13,
+      "last": 169818,
+      "absolute_change": 169805,
+      "relative_change_percent": 1306192.3076923075,
+      "minimum": 13,
+      "maximum": 169824,
+      "mean": 84922.0339991648
+    },
+    "components": {
+      "first": 10,
+      "last": 62705,
+      "absolute_change": 62695,
+      "relative_change_percent": 626950.0,
+      "minimum": 9,
+      "maximum": 62705,
+      "mean": 31354.868701280622
+    },
+    "span": {
+      "first": 40,
+      "last": 287390,
+      "absolute_change": 287350,
+      "relative_change_percent": 718375.0,
+      "minimum": 40,
+      "maximum": 287390,
+      "mean": 143715.0
+    }
+  },
+  "limitations": [
+    "Historical observations are aggregate metrics, not complete cell configurations.",
+    "Cell-by-cell survival cannot be reconstructed from aggregate history.",
+    "Component births, deaths, mergers and splits cannot be assigned individual lineages.",
+    "Spatial autocorrelation describes this snapshot, not the complete temporal process.",
+    "This analysis does not establish biological life, sentience or agency."
+  ]
+}

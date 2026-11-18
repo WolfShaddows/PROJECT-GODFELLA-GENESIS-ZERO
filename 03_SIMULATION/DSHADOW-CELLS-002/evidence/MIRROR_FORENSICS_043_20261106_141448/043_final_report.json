@@ -1,0 +1,77 @@
+{
+  "experiment": "043",
+  "title": "THE 6400 MIRROR FORENSICS",
+  "matrix_shape": [
+    501,
+    8192
+  ],
+  "matrix_sha256": "df84b96a7d192c96cb191bfecf660f629115e0559d602067435080cd41983cb1",
+  "frontier_start": 606548,
+  "source_generation": 614700,
+  "target_offset": 6400,
+  "window_width": 1792,
+  "rule110_errors": 0,
+  "original_state_metrics": {
+    "tp": 513306,
+    "fp": 216,
+    "fn": 0,
+    "tn": 384270,
+    "jaccard": 0.999579375372428,
+    "equality": 0.9997594097519247,
+    "exact": false,
+    "total": 897792
+  },
+  "original_state_difference_count": 216,
+  "generation_difference_min": 0,
+  "generation_difference_max": 2,
+  "generation_difference_initial": {
+    "matrix_generation_index": 0,
+    "global_generation": 614700,
+    "different_positions": 0,
+    "equal_positions": 1792,
+    "equality": 1.0
+  },
+  "generation_difference_final": {
+    "matrix_generation_index": 500,
+    "global_generation": 615200,
+    "different_positions": 2,
+    "equal_positions": 1790,
+    "equality": 0.9988839285714286
+  },
+  "neighborhood_summary": {
+    "neighborhood_comparisons": 896790,
+    "different_neighborhoods": 216,
+    "next_state_comparisons": 895000,
+    "different_next_states": 72,
+    "equal_next_states": 894928
+  },
+  "anomaly_mask_metrics": {
+    "tp": 3158,
+    "fp": 246,
+    "fn": 0,
+    "tn": 892596,
+    "jaccard": 0.9277320799059929,
+    "equality": 0.9997254464285714,
+    "exact": false,
+    "total": 896000
+  },
+  "anomaly_mask_difference_count": 246,
+  "sector_3_vs_28": {
+    "tp": 1804,
+    "fp": 0,
+    "fn": 0,
+    "tn": 126196,
+    "jaccard": 1.0,
+    "equality": 1.0,
+    "exact": true,
+    "total": 128000
+  },
+  "spatial_difference_cluster_count": 1,
+  "interpretation_limits": [
+    "Classical Rule 110 correlations do not demonstrate quantum entanglement.",
+    "A matching state does not establish a causal connection.",
+    "Equal-window offset controls reduce sample-size bias.",
+    "The matrix records a finite observed spacetime window.",
+    "The experiment cannot independently establish how the source matrix was originally constructed."
+  ]
+}

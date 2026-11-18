@@ -1,0 +1,322 @@
+{
+  "experiment": "042",
+  "title": "THE 6400 OFFSET INVESTIGATION",
+  "matrix_shape": [
+    501,
+    8192
+  ],
+  "matrix_sha256": "df84b96a7d192c96cb191bfecf660f629115e0559d602067435080cd41983cb1",
+  "frontier_start": 606548,
+  "source_generation": 614700,
+  "target_offset": 6400,
+  "offset_in_sectors": 25,
+  "sector_size": 256,
+  "left_global_coordinate_start": 606548,
+  "right_global_coordinate_start": 612948,
+  "overlap_width": 1792,
+  "temporal_transitions": 500,
+  "rule110_validation": {
+    "checked": 4095000,
+    "errors": 0,
+    "error_rate": 0.0,
+    "valid": true
+  },
+  "anomaly_mask_total": 19372,
+  "target_mask_metrics": {
+    "tp": 3158,
+    "fp": 246,
+    "fn": 0,
+    "tn": 892596,
+    "jaccard": 0.9277320799059929,
+    "precision": 0.9277320799059929,
+    "recall": 1.0,
+    "dice": 0.9625114294422432,
+    "exact_equal": false,
+    "total": 896000
+  },
+  "target_original_state_metrics": {
+    "tp": 513306,
+    "fp": 216,
+    "fn": 0,
+    "tn": 384270,
+    "jaccard": 0.999579375372428,
+    "precision": 0.999579375372428,
+    "recall": 1.0,
+    "dice": 0.9997896434456404,
+    "exact_equal": false,
+    "total": 897792,
+    "raw_equality": 0.9997594097519247,
+    "phi": 0.9995087907011827
+  },
+  "target_temporal_signatures": {
+    "positions_compared": 1792,
+    "exact_temporal_signature_matches": 1786,
+    "exact_temporal_signature_fraction": 0.9966517857142857,
+    "mean_temporal_hamming_distance": 0.13727678571428573,
+    "max_temporal_hamming_distance": 143,
+    "min_temporal_hamming_distance": 0
+  },
+  "per_generation_exact_matches": 346,
+  "per_generation_total": 500,
+  "per_generation_jaccard_mean": 0.935936235986236,
+  "per_generation_jaccard_min": 0.5,
+  "per_generation_jaccard_max": 1.0,
+  "sector_3_vs_sector_28": {
+    "tp": 1804,
+    "fp": 0,
+    "fn": 0,
+    "tn": 126196,
+    "jaccard": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "dice": 1.0,
+    "exact_equal": true,
+    "total": 128000
+  },
+  "nearby_offsets_top_10": [
+    {
+      "offset": 6400,
+      "positions_compared_per_generation": 1792,
+      "tp": 3158,
+      "fp": 246,
+      "fn": 0,
+      "jaccard": 0.9277320799059929,
+      "dice": 0.9625114294422432,
+      "exact_equal": false
+    },
+    {
+      "offset": 6392,
+      "positions_compared_per_generation": 1800,
+      "tp": 200,
+      "fp": 3268,
+      "fn": 2958,
+      "jaccard": 0.03112356053532524,
+      "dice": 0.06036824630244492,
+      "exact_equal": false
+    },
+    {
+      "offset": 6408,
+      "positions_compared_per_generation": 1784,
+      "tp": 196,
+      "fp": 3144,
+      "fn": 2962,
+      "jaccard": 0.031101237702316726,
+      "dice": 0.060326254232071407,
+      "exact_equal": false
+    },
+    {
+      "offset": 6296,
+      "positions_compared_per_generation": 1896,
+      "tp": 6,
+      "fp": 4230,
+      "fn": 3398,
+      "jaccard": 0.0007859575582918522,
+      "dice": 0.0015706806282722514,
+      "exact_equal": false
+    },
+    {
+      "offset": 6240,
+      "positions_compared_per_generation": 1952,
+      "tp": 6,
+      "fp": 4678,
+      "fn": 3846,
+      "jaccard": 0.0007033997655334115,
+      "dice": 0.0014058106841611997,
+      "exact_equal": false
+    },
+    {
+      "offset": 6184,
+      "positions_compared_per_generation": 2008,
+      "tp": 6,
+      "fp": 5126,
+      "fn": 4294,
+      "jaccard": 0.0006365372374283895,
+      "dice": 0.001272264631043257,
+      "exact_equal": false
+    },
+    {
+      "offset": 6304,
+      "positions_compared_per_generation": 1888,
+      "tp": 4,
+      "fp": 4168,
+      "fn": 3336,
+      "jaccard": 0.0005327650506126798,
+      "dice": 0.0010649627263045794,
+      "exact_equal": false
+    },
+    {
+      "offset": 6272,
+      "positions_compared_per_generation": 1920,
+      "tp": 4,
+      "fp": 4424,
+      "fn": 3592,
+      "jaccard": 0.0004987531172069825,
+      "dice": 0.0009970089730807576,
+      "exact_equal": false
+    },
+    {
+      "offset": 6248,
+      "positions_compared_per_generation": 1944,
+      "tp": 4,
+      "fp": 4616,
+      "fn": 3784,
+      "jaccard": 0.00047596382674916705,
+      "dice": 0.0009514747859181732,
+      "exact_equal": false
+    },
+    {
+      "offset": 6216,
+      "positions_compared_per_generation": 1976,
+      "tp": 4,
+      "fp": 4872,
+      "fn": 4040,
+      "jaccard": 0.00044863167339614175,
+      "dice": 0.0008968609865470852,
+      "exact_equal": false
+    }
+  ],
+  "random_controls_top_10": [
+    {
+      "offset": 7316,
+      "positions_compared_per_generation": 876,
+      "tp": 6,
+      "fp": 1936,
+      "fn": 1104,
+      "jaccard": 0.001969796454366382,
+      "dice": 0.003931847968545216
+    },
+    {
+      "offset": 7383,
+      "positions_compared_per_generation": 809,
+      "tp": 3,
+      "fp": 1403,
+      "fn": 571,
+      "jaccard": 0.0015174506828528073,
+      "dice": 0.0030303030303030303
+    },
+    {
+      "offset": 7335,
+      "positions_compared_per_generation": 857,
+      "tp": 4,
+      "fp": 1786,
+      "fn": 954,
+      "jaccard": 0.0014577259475218659,
+      "dice": 0.002911208151382824
+    },
+    {
+      "offset": 7131,
+      "positions_compared_per_generation": 1061,
+      "tp": 3,
+      "fp": 2879,
+      "fn": 2587,
+      "jaccard": 0.0005485463521667581,
+      "dice": 0.0010964912280701754
+    },
+    {
+      "offset": 5164,
+      "positions_compared_per_generation": 3028,
+      "tp": 6,
+      "fp": 7418,
+      "fn": 6586,
+      "jaccard": 0.00042826552462526765,
+      "dice": 0.0008561643835616438
+    },
+    {
+      "offset": 6034,
+      "positions_compared_per_generation": 2158,
+      "tp": 4,
+      "fp": 5544,
+      "fn": 5496,
+      "jaccard": 0.0003621876131836291,
+      "dice": 0.000724112961622013
+    },
+    {
+      "offset": 7061,
+      "positions_compared_per_generation": 1131,
+      "tp": 2,
+      "fp": 2880,
+      "fn": 3131,
+      "jaccard": 0.0003326126725428239,
+      "dice": 0.0006650041562759767
+    },
+    {
+      "offset": 5253,
+      "positions_compared_per_generation": 2939,
+      "tp": 4,
+      "fp": 6708,
+      "fn": 5876,
+      "jaccard": 0.00031776294884016526,
+      "dice": 0.0006353240152477764
+    },
+    {
+      "offset": 5214,
+      "positions_compared_per_generation": 2978,
+      "tp": 4,
+      "fp": 7020,
+      "fn": 6188,
+      "jaccard": 0.0003027550711474417,
+      "dice": 0.0006053268765133172
+    },
+    {
+      "offset": 6120,
+      "positions_compared_per_generation": 2072,
+      "tp": 3,
+      "fp": 5545,
+      "fn": 4809,
+      "jaccard": 0.0002896591677126581,
+      "dice": 0.0005791505791505791
+    }
+  ],
+  "spatial_profile_top_10": [
+    {
+      "offset": 1,
+      "profile_correlation": 0.9597226327460451
+    },
+    {
+      "offset": 2,
+      "profile_correlation": 0.8939851335607065
+    },
+    {
+      "offset": 3,
+      "profile_correlation": 0.8917459858649276
+    },
+    {
+      "offset": 4,
+      "profile_correlation": 0.8894213398424956
+    },
+    {
+      "offset": 5,
+      "profile_correlation": 0.8873470304379483
+    },
+    {
+      "offset": 6,
+      "profile_correlation": 0.8852721129372674
+    },
+    {
+      "offset": 7,
+      "profile_correlation": 0.8831965870161527
+    },
+    {
+      "offset": 1067,
+      "profile_correlation": 0.8817681469080384
+    },
+    {
+      "offset": 1066,
+      "profile_correlation": 0.8817144129211215
+    },
+    {
+      "offset": 8,
+      "profile_correlation": 0.8811204523500464
+    }
+  ],
+  "mismatch_coordinate_rows_exported": 246,
+  "interpretation_guardrails": [
+    "A high raw equality can be inflated by shared zeros.",
+    "Jaccard measures overlap of positive anomaly positions.",
+    "The anomaly mask is a comparison-disagreement mask, not a glider detector.",
+    "A spatial offset is not a measured propagation velocity.",
+    "The offset was selected after experiment 041 and therefore requires controls.",
+    "A high anomaly-mask overlap does not prove identical underlying dynamics."
+  ],
+  "runtime_seconds": 1.3454768657684326
+}

@@ -1,0 +1,33 @@
+{
+  "experiment_id": "DSHADOW-CELLS-002",
+  "name": "THE UNBOUNDED OBSERVATORY",
+  "model": {
+    "dimension": 1,
+    "lattice": "unbounded_integer_coordinates",
+    "cell_states": [0, 1],
+    "update": "synchronous",
+    "rule": 110,
+    "quiescent_background": 0
+  },
+  "initial_conditions": {
+    "seed": 20261105,
+    "initial_span": 41,
+    "initial_density": 0.28
+  },
+  "execution": {
+    "target_generations": null,
+    "checkpoint_interval": 5000,
+    "observation_interval": 10,
+    "history_limit": 1200,
+    "speed_default": 500,
+    "speed_min": 1,
+    "speed_max": 500
+  },
+  "scientific_constraints": {
+    "predefined_organisms": false,
+    "artificial_reproduction": false,
+    "artificial_selection": false,
+    "ai_inside_substrate": false,
+    "observer_changes_cell_states": false
+  }
+}

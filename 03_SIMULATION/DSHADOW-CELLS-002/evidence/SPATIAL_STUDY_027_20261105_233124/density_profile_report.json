@@ -1,0 +1,80 @@
+{
+  "study": "027 - LIVE DENSITY PROFILE",
+  "window_size": 1000,
+  "snapshots": [
+    {
+      "snapshot": "C:\\Users\\PC\\Desktop\\PROJECT GODFELLA\\03_SIMULATION\\DSHADOW-CELLS-002\\evidence\\UNIVERSE_EXPORT_20261105_112658\\universe_snapshot.json",
+      "generation": 284970,
+      "active_count": 168417,
+      "min": -284990,
+      "max": 19,
+      "span": 285010,
+      "global_density": 0.5909161082067296,
+      "sha256": "9179998e116c96e81ecedfc5919c1c73d8e25e92a2b2db4fcf0bfad82081a5fc",
+      "regions": [
+        {
+          "region": "left",
+          "start": -284990,
+          "end": -189988,
+          "width": 95003,
+          "active": 56405,
+          "density": 0.5937180931128491
+        },
+        {
+          "region": "center",
+          "start": -189987,
+          "end": -94985,
+          "width": 95003,
+          "active": 56408,
+          "density": 0.593749671063019
+        },
+        {
+          "region": "right",
+          "start": -94984,
+          "end": 19,
+          "width": 95004,
+          "active": 55604,
+          "density": 0.5852806197633784
+        }
+      ],
+      "windows_csv": "C:\\Users\\PC\\Desktop\\PROJECT GODFELLA\\03_SIMULATION\\DSHADOW-CELLS-002\\evidence\\SPATIAL_STUDY_027_20261105_233124\\UNIVERSE_EXPORT_20261105_112658_density_windows.csv"
+    },
+    {
+      "snapshot": "C:\\Users\\PC\\Desktop\\PROJECT GODFELLA\\03_SIMULATION\\DSHADOW-CELLS-002\\evidence\\SPATIAL_STUDY_025_20261105_232652\\live_snapshot.json",
+      "generation": 511660,
+      "active_count": 302381,
+      "min": -511680,
+      "max": 19,
+      "span": 511700,
+      "global_density": 0.5909341410982998,
+      "sha256": "65a7c8c82c35dc9d9a0cddde02b93eb4539a66624920949f1826c6094d510b2c",
+      "regions": [
+        {
+          "region": "left",
+          "start": -511680,
+          "end": -341115,
+          "width": 170566,
+          "active": 101279,
+          "density": 0.593781879155283
+        },
+        {
+          "region": "center",
+          "start": -341114,
+          "end": -170548,
+          "width": 170567,
+          "active": 101276,
+          "density": 0.5937608095352559
+        },
+        {
+          "region": "right",
+          "start": -170547,
+          "end": 19,
+          "width": 170567,
+          "active": 99826,
+          "density": 0.5852597513000757
+        }
+      ],
+      "windows_csv": "C:\\Users\\PC\\Desktop\\PROJECT GODFELLA\\03_SIMULATION\\DSHADOW-CELLS-002\\evidence\\SPATIAL_STUDY_027_20261105_233124\\SPATIAL_STUDY_025_20261105_232652_density_windows.csv"
+    }
+  ]
+}

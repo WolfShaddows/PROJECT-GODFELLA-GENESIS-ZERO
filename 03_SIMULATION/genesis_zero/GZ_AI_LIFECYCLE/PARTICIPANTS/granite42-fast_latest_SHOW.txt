@@ -1,0 +1,18 @@
+  Model
+    architecture        granite               
+    parameters          8.8B                  
+    context length      131072                
+    embedding length    4096                  
+    quantization        Q4_K_M                
+    template source     gguf_chat_template    
+
+  Capabilities
+    tools         
+    thinking      
+    completion    
+
+  Parameters
+    stop           "<|im_end|>"    
+    temperature    0.1             
+    top_p          0.95            
+

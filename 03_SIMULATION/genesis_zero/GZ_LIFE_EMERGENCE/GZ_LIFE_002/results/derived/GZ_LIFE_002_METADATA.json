@@ -1,0 +1,20 @@
+{
+  "experiment": "GZ-LIFE-002",
+  "method": "Circular shifted Jaccard component association",
+  "rules": [
+    67,
+    109,
+    137
+  ],
+  "cycles_per_rule": 2,
+  "width": 256,
+  "max_shift": 3,
+  "jaccard_threshold": 0.5,
+  "original_trajectories_modified": false,
+  "interpretation": "Geometric candidate associations only. Split candidates do not establish biological reproduction or hereditary information transmission.",
+  "outputs": {
+    "candidate_edges": 493290,
+    "candidate_events": 236948,
+    "transition_rows": 8464
+  }
+}

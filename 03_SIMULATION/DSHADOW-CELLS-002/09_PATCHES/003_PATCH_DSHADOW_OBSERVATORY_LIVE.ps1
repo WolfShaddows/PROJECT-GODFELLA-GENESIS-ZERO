@@ -1,0 +1,171 @@
+﻿# PATCH_DSHADOW_OBSERVATORY_LIVE.ps1
+# Hot-patches ONLY the dashboard HTML. Does not stop/restart the running engine.
+$ErrorActionPreference = "Stop"
+$root = Join-Path (Get-Location).Path "03_SIMULATION\DSHADOW-CELLS-002"
+$target = Join-Path $root "observer\index.html"
+
+if (-not (Test-Path $target)) {
+    throw "No encuentro $target. Ejecuta este script desde PROJECT GODFELLA."
+}
+
+$stamp = Get-Date -Format "yyyyMMdd_HHmmss"
+$backup = Join-Path (Split-Path $target) "index.before_visual_upgrade_$stamp.html"
+Copy-Item $target $backup -Force
+
+$html = @'
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DSHADOW-CELLS 002 | Observatory</title>
+<style>
+:root{--bg:#050a12;--side:#081321;--panel:#0b1726;--panel2:#07111e;--line:#24445f;--text:#e9f4ff;--muted:#8ca4bd;--cyan:#42e8ed;--cyan2:#00a9c7;--gold:#e2bd70;--blue:#536ff0;--green:#18e29b;--red:#ff7189}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 62% -10%,#17324b 0%,#07101c 47%,#040810 100%);color:var(--text);font:14px/1.45 "Segoe UI",Arial,sans-serif}
+.app{min-height:100vh;display:grid;grid-template-columns:232px minmax(0,1fr)}.sidebar{background:linear-gradient(180deg,#091626,#07101c);border-right:1px solid #24445f;padding:24px 15px;display:flex;flex-direction:column}.brand{font-size:24px;font-weight:850;letter-spacing:4px}.brand small{display:block;color:var(--gold);font-size:10px;letter-spacing:4px}.navlabel{margin:37px 10px 9px;color:#8097b0;font-size:10px;letter-spacing:2px}.nav a,.modebtn{display:block;width:100%;text-align:left;color:#b9cbe0;text-decoration:none;padding:11px 10px;margin:4px 0;border-radius:8px;border:1px solid transparent;background:transparent;font:inherit;cursor:pointer}.nav a:hover,.nav a.active,.modebtn:hover,.modebtn.active{background:#132b49;border-color:#2e6485;color:#e8faff;box-shadow:inset 0 0 18px #0c5b7933}.modebtn.active{border-color:var(--cyan);box-shadow:0 0 12px #00d9ee44}.sidefoot{margin:auto 8px 4px;padding-top:24px;color:#7890a9;font-size:10px;line-height:1.8}.sidefoot b{color:var(--gold);font-weight:600}
+main{padding:20px 24px;min-width:0}.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;gap:12px}.eyebrow{font-size:10px;color:#8faeff;letter-spacing:3px}.title{font-size:25px;font-weight:760;line-height:1.2}.conn{font-size:12px;color:var(--green);white-space:nowrap}.conn.bad{color:var(--red)}.grid{display:grid;grid-template-columns:minmax(0,1fr) 255px;gap:13px}.card{background:linear-gradient(145deg,#0d1b2b,#081321);border:1px solid var(--line);border-radius:12px;min-width:0;box-shadow:0 8px 30px #0003}.head{display:flex;justify-content:space-between;align-items:center;padding:13px 15px;border-bottom:1px solid #1c3852;gap:10px}.pill{border:1px solid #23718a;color:var(--cyan);border-radius:20px;padding:4px 10px;font-size:10px;white-space:nowrap}.view{height:405px;position:relative;background:#02070e;overflow:hidden}.view canvas{width:100%;height:100%;display:block}.viewbadge{position:absolute;left:14px;top:13px;padding:10px 13px;background:#061321e8;border:1px solid #17617b;border-radius:9px;pointer-events:none;box-shadow:0 0 22px #00d9ed1c}.viewbadge b{display:block;color:var(--cyan);font-size:13px;letter-spacing:1px}.viewbadge span{font-size:10px;color:#bfd1e4}.overlay{position:absolute;left:14px;bottom:13px;background:#071321ed;border:1px solid #31536f;border-radius:8px;padding:8px 11px;font-size:10px;line-height:1.8;pointer-events:none}.densitybox{position:absolute;right:13px;bottom:13px;width:31%;height:70px;background:#071321e8;border:1px solid #31536f;border-radius:8px;padding:7px 9px}.densitybox label{font-size:9px;color:#c5d7e9;letter-spacing:1px}.densitybox canvas{height:39px!important;width:100%!important}
+.viewtools{display:flex;align-items:center;gap:7px;flex-wrap:wrap;padding:9px 12px;border-top:1px solid #1d3b56}.viewtools span{font-size:11px;color:var(--muted);margin-right:3px}.mini{border:1px solid #35536e;background:#0d2034;color:#d6e8f8;border-radius:7px;padding:7px 10px;font-size:11px;cursor:pointer}.mini.active{border-color:var(--cyan);color:var(--cyan);box-shadow:0 0 12px #00ddeb33}.zoom{display:flex;align-items:center;gap:7px;margin-left:auto;color:var(--muted);font-size:11px}.zoom input{width:95px;accent-color:var(--cyan)}.right{padding:14px}.right h3{margin:0 0 8px}.row{display:flex;justify-content:space-between;gap:8px;padding:8px 0;border-bottom:1px solid #20384e;font-size:11px;color:var(--muted)}.row b{color:var(--text);text-align:right;font-variant-numeric:tabular-nums;max-width:62%;overflow-wrap:anywhere}.foot{font-size:10px;color:#8197ad;margin:11px 0}.metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:13px 0}.metric{padding:12px 14px}.metric label{display:block;color:#9eb2c7;font-size:9px;letter-spacing:1px}.metric strong{display:block;font-size:22px;margin:5px 0;font-variant-numeric:tabular-nums}.metric small{font-size:9px;color:var(--gold)}
+.controls{padding:13px 14px;margin-bottom:13px}.buttons{display:flex;flex-wrap:wrap;gap:7px}.btn{min-height:37px;border:1px solid #35536e;background:#10243a;color:#e5effb;border-radius:7px;padding:8px 11px;font-weight:650;font-size:11px;cursor:pointer}.btn.primary{background:#405bd4;border-color:#647cff}.btn:hover,.mini:hover{filter:brightness(1.2)}.btn:disabled{opacity:.5;cursor:wait}.speed{display:flex;align-items:center;gap:10px;margin-top:11px;flex-wrap:wrap;color:var(--muted);font-size:11px}.speed input{width:min(400px,55%);accent-color:var(--cyan)}.speed b{color:var(--cyan)}.lower{display:grid;grid-template-columns:1fr 1fr;gap:12px}.chart{padding:13px;min-height:185px}.bars{display:flex;align-items:end;gap:2px;height:110px;margin-top:10px}.bar{flex:1;min-width:2px;background:linear-gradient(0deg,#3154b9,#40e4e8);border-radius:2px 2px 0 0}.log{height:125px;overflow:auto;font:10px/1.8 Consolas,monospace;color:#b7cbe0}.section{margin:13px 0;scroll-margin-top:10px}.sectionhead{display:flex;justify-content:space-between;align-items:center;padding:12px 14px}.checkpoint-list{font-size:11px;color:var(--muted);max-height:140px;overflow:auto;padding:0 14px 10px}.checkpoint-list div{padding:6px;border-bottom:1px solid #20384e}.toast{position:fixed;right:20px;bottom:18px;max-width:420px;padding:10px 14px;background:#10263b;border:1px solid #3a7991;border-radius:8px;color:#e7f7ff;display:none;z-index:20;box-shadow:0 8px 28px #0008}.toast.show{display:block}
+@media(max-width:1050px){.app{grid-template-columns:190px minmax(0,1fr)}.grid{grid-template-columns:1fr}.right{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 14px}.right h3,.right p{grid-column:1/-1}.metrics{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:720px){.app{grid-template-columns:1fr}.sidebar{padding:10px!important}.nav{display:flex;overflow-x:auto;gap:3px}.navlabel,.sidefoot{display:none}.nav a,.modebtn{white-space:nowrap;width:auto;padding:8px}.brand{font-size:18px}main{padding:12px}.title{font-size:20px}.view{height:320px}.lower{grid-template-columns:1fr}.right{grid-template-columns:1fr 1fr}.metrics{gap:7px}.metric strong{font-size:19px}.top{align-items:flex-start}.zoom{margin-left:0}.densitybox{width:40%}}
+</style>
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+ <div class="brand">DSHADOW<small>CELLS OBSERVATORY</small></div>
+ <div class="navlabel">OBSERVATION</div>
+ <nav class="nav">
+  <a class="active" href="#live">◈ &nbsp; Live Universe</a>
+  <a href="#spacetime">▦ &nbsp; Space-Time Evolution</a>
+  <a href="#metrics">◷ &nbsp; Evolution Metrics</a>
+  <a href="#research">⌘ &nbsp; Research Log</a>
+  <a href="#checkpoints">⬡ &nbsp; Checkpoints</a>
+ </nav>
+ <div class="navlabel">VIEW MODE</div>
+ <button class="modebtn" data-mode="raw">⊞ &nbsp; Vista Real (RAW)</button>
+ <button class="modebtn active" data-mode="processed">✧ &nbsp; Imagen Procesada</button>
+ <button class="modebtn" data-mode="density">▥ &nbsp; Mapa de Densidad</button>
+ <div class="sidefoot"><b>DARKSHADOWS GROUP</b><br>EXTERNAL OBSERVER<br>EXPERIMENT 002</div>
+</aside>
+<main>
+ <div class="top"><div><div class="eyebrow">DSHADOW-CELLS / EXPERIMENT 002</div><div class="title">Live Operations &amp; Control</div></div><div id="connection" class="conn">● CONNECTING</div></div>
+ <section id="live" class="grid">
+  <div class="card">
+   <div class="head"><b id="viewTitle">LIVE UNIVERSE — PROCESSED CELLULAR VIEW</b><span class="pill" id="runstate">INITIALIZING</span></div>
+   <div class="view">
+    <canvas id="mainCanvas"></canvas>
+    <div class="viewbadge"><b id="modeTitle">IMAGEN PROCESADA</b><span id="modeDescription">Representación visual derivada de observaciones reales</span></div>
+    <div class="overlay">RULE <b>110</b><br>GENERATION <b id="smallGen">0</b><br>SPACE <b>UNBOUNDED</b></div>
+    <div class="densitybox"><label>LIVE DENSITY PROFILE</label><canvas id="densityCanvas"></canvas></div>
+   </div>
+   <div class="viewtools"><span>Visualización:</span>
+    <button class="mini" data-mode="raw">▦ Vista Real (Raw)</button>
+    <button class="mini active" data-mode="processed">▰ Imagen Procesada</button>
+    <button class="mini" data-mode="density">▥ Mapa de Densidad</button>
+    <div class="zoom">ZOOM <input id="zoomSlider" type="range" min="50" max="250" value="100"><b id="zoomValue">100%</b></div>
+    <button class="mini" id="fullscreen">⛶</button>
+   </div>
+  </div>
+  <aside class="card right">
+   <h3>Universe telemetry</h3>
+   <div class="row"><span>Engine status</span><b id="engineStatus">READY</b></div>
+   <div class="row"><span>Rule</span><b>110</b></div>
+   <div class="row"><span>Active cells</span><b id="activeSide">0</b></div>
+   <div class="row"><span>Components</span><b id="componentsSide">0</b></div>
+   <div class="row"><span>Spatial span</span><b id="spanSide">0</b></div>
+   <div class="row"><span>Coordinate bounds</span><b id="boundsSide">0 / 0</b></div>
+   <div class="row"><span>Observer time</span><b id="elapsedSide">0 s</b></div>
+   <div class="row"><span>Last event</span><b id="lastEvent">Initialized</b></div>
+   <p class="foot">Observer externo. El procesamiento visual no modifica estados ni agrega células al sustrato.</p>
+  </aside>
+ </section>
+ <section id="metrics" class="metrics">
+  <div class="card metric"><label>UNIVERSE TIME</label><strong id="generation">0</strong><small>GENERATIONS</small></div>
+  <div class="card metric"><label>ACTIVE CELLS</label><strong id="activeCells">0</strong><small>STATE = 1</small></div>
+  <div class="card metric"><label>STRUCTURAL COMPONENTS</label><strong id="components">0</strong><small>CONTIGUOUS GROUPS</small></div>
+  <div class="card metric"><label>OBSERVER TIME</label><strong id="elapsed">0 s</strong><small>REAL ELAPSED TIME</small></div>
+ </section>
+ <section class="card controls">
+  <div class="head" style="padding:0 0 12px;border:0"><b>EVOLUTION CONTROL</b><span class="pill">EXTERNAL OBSERVER</span></div>
+  <div class="buttons">
+   <button class="btn primary" data-action="start">▶ START</button><button class="btn" data-action="pause">Ⅱ PAUSE</button>
+   <button class="btn" data-action="step">＋ STEP (1)</button><button class="btn" data-action="checkpoint">▣ SAVE CHECKPOINT</button>
+   <button class="btn" data-action="restore">↶ RESTORE</button><button class="btn" data-action="reset">↻ NEW UNIVERSE</button>
+  </div>
+  <div class="speed">EVOLUTION SPEED <input id="speedSlider" type="range" min="1" max="500" value="500"><b id="speedLabel">500 / 500 — MAX REQUESTED BATCH</b></div>
+  <div class="foot">El valor indica generaciones solicitadas por lote de trabajo; la tasa real depende del hardware y del tamaño del universo.</div>
+ </section>
+ <section id="spacetime" class="card section"><div class="sectionhead"><b>SPACE-TIME EVOLUTION</b><small class="foot">Cada fila es una observación real del estado celular.</small></div><div style="height:220px;padding:0 12px 12px"><canvas id="timeCanvas" style="width:100%;height:100%;display:block;background:#02070e;border-radius:7px"></canvas></div></section>
+ <section class="lower">
+  <div class="card chart"><b>EVOLUTION TRACE</b><div class="foot">Active cells across sampled observations.</div><div class="bars" id="bars"></div></div>
+  <section id="research" class="card chart"><b>RESEARCH EVENT LOG</b><div class="log" id="log" aria-live="polite">[SYSTEM] Observatory ready.<br>[SYSTEM] Waiting for telemetry…</div></section>
+ </section>
+ <section id="checkpoints" class="card section"><div class="sectionhead"><b>CHECKPOINT ARCHIVE</b><button class="btn" id="refreshCheckpoints">↻ REFRESH</button></div><div class="checkpoint-list" id="checkpointList">Loading…</div></section>
+ <div class="foot">DSHADOW-CELLS-002 • Rule 110 • Mathematical lattice unbounded; physical compute and storage remain finite. Processed view is a visual transformation of recorded states, not a photograph of a physical nebula.</div>
+</main>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script>
+(()=>{
+"use strict";
+const $=id=>document.getElementById(id), main=$("mainCanvas"), mctx=main.getContext("2d"), tc=$("timeCanvas"), tctx=tc.getContext("2d"), dc=$("densityCanvas"), dctx=dc.getContext("2d");
+let latest=null, mode="processed", zoom=1, busy=false, lastEvent="", pollHandle=null;
+const fmt=n=>Number(n||0).toLocaleString("en-US");
+function toast(s){const e=$("toast");e.textContent=s;e.style.display="block";clearTimeout(toast.t);toast.t=setTimeout(()=>e.style.display="none",3800)}
+function sizeCanvas(c,ctx){const r=c.getBoundingClientRect(),d=window.devicePixelRatio||1;c.width=Math.max(1,Math.round(r.width*d));c.height=Math.max(1,Math.round(r.height*d));ctx.setTransform(d,0,0,d,0,0)}
+function resize(){[main,tc,dc].forEach(c=>sizeCanvas(c,c===main?mctx:c===tc?tctx:dctx));render()}
+window.addEventListener("resize",resize);
+function drawGrid(ctx,w,h){ctx.strokeStyle="rgba(95,151,190,.10)";ctx.lineWidth=1;for(let x=0;x<w;x+=40){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,h);ctx.stroke()}for(let y=0;y<h;y+=40){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(w,y);ctx.stroke()}}
+function drawRaw(s,w,h){
+ const p=s.positions||[],lo=Number(s.min_x||0),span=Math.max(1,Number(s.span||1));drawGrid(mctx,w,h);
+ const pad=24,usable=w-pad*2,scale=usable/span*zoom,mid=(lo+Number(s.max_x||lo))/2;
+ const center=w/2, y=h*.53, cell=Math.max(1,Math.min(7,scale));
+ mctx.save();mctx.shadowColor="#43e8ed";mctx.shadowBlur=7;mctx.fillStyle="#54edf0";
+ for(const x of p){const px=center+(x-mid)*scale;if(px>=0&&px<=w)mctx.fillRect(px,y-cell/2,Math.max(1,cell),Math.max(3,cell))}
+ mctx.restore();
+ mctx.fillStyle="#a9c4d8";mctx.font="11px Segoe UI";mctx.fillText("LATTICE COORDINATES · CURRENT STATE · "+fmt(p.length)+" DISPLAYED",15,18);
+}
+function drawProcessed(s,w,h){
+ const rows=s.rows||[];mctx.fillStyle="#02070e";mctx.fillRect(0,0,w,h);
+ if(!rows.length){mctx.fillStyle="#a9c4d8";mctx.fillText("Waiting for temporal observations…",18,28);return}
+ const rowH=h/rows.length, cols=(rows[0].bits||"").length||720, cw=w/cols;
+ // The raster is derived solely from the engine's stored sampled states.
+ rows.forEach((r,i)=>{const bits=r.bits||"",y=h-(rows.length-i)*rowH;for(let x=0;x<bits.length;x++){if(bits.charAt(x)==="1"){const intensity=.58+.42*(i/Math.max(1,rows.length-1));mctx.fillStyle=`rgba(${Math.round(28+20*intensity)},${Math.round(170+75*intensity)},${Math.round(195+60*intensity)},${intensity})`;mctx.fillRect(x*cw,y,Math.ceil(cw),Math.max(1,rowH+.25))}}});
+}
+function drawDensity(s,w,h){
+ mctx.fillStyle="#02070e";mctx.fillRect(0,0,w,h);drawGrid(mctx,w,h);
+ const p=s.positions||[],bins=160,counts=new Array(bins).fill(0),lo=Number(s.min_x||0),span=Math.max(1,Number(s.span||1));
+ p.forEach(x=>{const b=Math.min(bins-1,Math.max(0,Math.floor((x-lo)/span*bins)));counts[b]++});
+ const max=Math.max(1,...counts),bw=w/bins;
+ counts.forEach((v,i)=>{const bh=(v/max)*(h*.78);mctx.fillStyle=`rgba(40,${Math.round(120+120*v/max)},${Math.round(175+80*v/max)},${.25+.75*v/max})`;mctx.fillRect(i*bw,h-bh,bw+1,bh);});
+ mctx.fillStyle="#b6cce0";mctx.font="11px Segoe UI";mctx.fillText("SPATIAL OCCUPANCY PROFILE · "+bins+" BINS",14,18);
+}
+function drawDensityStrip(s,w,h){dctx.fillStyle="#030a13";dctx.fillRect(0,0,w,h);const p=s.positions||[],bins=100,counts=new Array(bins).fill(0),lo=Number(s.min_x||0),span=Math.max(1,Number(s.span||1));p.forEach(x=>counts[Math.min(bins-1,Math.floor((x-lo)/span*bins))]++);const max=Math.max(1,...counts),bw=w/bins;counts.forEach((v,i)=>{const bh=(v/max)*(h-3);dctx.fillStyle=`rgba(50,${Math.round(145+100*v/max)},${Math.round(190+65*v/max)},${.3+.7*v/max})`;dctx.fillRect(i*bw,h-bh,bw+1,bh)})}
+function drawTime(s){const w=tc.clientWidth,h=tc.clientHeight,rows=s.rows||[];tctx.fillStyle="#02070e";tctx.fillRect(0,0,w,h);if(!rows.length)return;const rh=h/rows.length,cw=w/720;rows.forEach((r,i)=>{const bits=r.bits||"",y=h-(rows.length-i)*rh;for(let x=0;x<bits.length;x++)if(bits[x]==="1"){tctx.fillStyle=`rgba(45,${Math.round(165+70*i/rows.length)},${Math.round(200+50*i/rows.length)},.95)`;tctx.fillRect(x*cw,y,Math.ceil(cw),Math.max(1,rh+.2))}});tctx.fillStyle="#e0bd70";tctx.font="10px Segoe UI";tctx.fillText("GEN "+fmt(rows[0].generation),8,12);tctx.fillText("GEN "+fmt(rows[rows.length-1].generation),8,h-4)}
+function drawBars(s){const host=$("bars");host.innerHTML="";const a=(s.history||[]).slice(-100);if(!a.length)return;const max=Math.max(1,...a.map(x=>x.active));a.forEach(x=>{const b=document.createElement("div");b.className="bar";b.style.height=(5+100*x.active/max)+"px";b.title=`Generation ${fmt(x.generation)} · ${fmt(x.active)} active · ${fmt(x.components)} components`;host.appendChild(b)})}
+function render(){if(!latest)return;const w=main.clientWidth,h=main.clientHeight;mctx.clearRect(0,0,w,h);if(mode==="raw")drawRaw(latest,w,h);else if(mode==="density")drawDensity(latest,w,h);else drawProcessed(latest,w,h);drawDensityStrip(latest,dc.clientWidth,dc.clientHeight);drawTime(latest);drawBars(latest)}
+function setMode(v){mode=v;document.querySelectorAll("[data-mode]").forEach(b=>b.classList.toggle("active",b.dataset.mode===v));const names={raw:["VISTA REAL (RAW)","Células activas en coordenadas espaciales actuales","LIVE UNIVERSE — RAW LATTICE CONFIGURATION"],processed:["IMAGEN PROCESADA","Raster espacio-temporal de observaciones reales; brillo visual derivado","LIVE UNIVERSE — PROCESSED SPACE-TIME VIEW"],density:["MAPA DE DENSIDAD","Concentración espacial calculada desde las posiciones activas","LIVE UNIVERSE — SPATIAL DENSITY MAP"]};$("modeTitle").textContent=names[v][0];$("modeDescription").textContent=names[v][1];$("viewTitle").textContent=names[v][2];render()}
+document.querySelectorAll("[data-mode]").forEach(b=>b.addEventListener("click",()=>setMode(b.dataset.mode)));
+$("zoomSlider").addEventListener("input",e=>{$("zoomValue").textContent=e.target.value+"%";zoom=Number(e.target.value)/100;render()});
+$("fullscreen").addEventListener("click",async()=>{const el=$("live");try{if(!document.fullscreenElement)await el.requestFullscreen();else await document.exitFullscreen()}catch(e){toast("Fullscreen unavailable: "+e.message)}});
+function update(s){latest=s;$("connection").textContent="● CONNECTED";$("connection").classList.remove("bad");$("runstate").textContent=s.running?"EVOLUTION RUNNING":s.status;$("engineStatus").textContent=s.status;$("generation").textContent=fmt(s.generation);$("smallGen").textContent=fmt(s.generation);$("activeCells").textContent=fmt(s.active_cells);$("activeSide").textContent=fmt(s.active_cells);$("components").textContent=fmt(s.components);$("componentsSide").textContent=fmt(s.components);$("spanSide").textContent=fmt(s.span);$("boundsSide").textContent=fmt(s.min_x)+" / "+fmt(s.max_x);$("elapsed").textContent=Number(s.elapsed_seconds||0).toFixed(1)+" s";$("elapsedSide").textContent=Number(s.elapsed_seconds||0).toFixed(1)+" s";$("lastEvent").textContent=s.event||"—";if(s.event&&s.event!==lastEvent){lastEvent=s.event;const line=document.createElement("div");line.textContent=`[${new Date().toLocaleTimeString()}] ${s.event}`;$("log").prepend(line);while($("log").children.length>60)$("log").lastChild.remove()}render()}
+async function command(action,extra={}){if(busy)return;busy=true;document.querySelectorAll("[data-action]").forEach(b=>b.disabled=true);try{const r=await fetch("/api/control",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({action,...extra})});if(!r.ok)throw new Error("HTTP "+r.status);const j=await r.json();if(!j.ok)throw new Error(j.message||"Command rejected");if(j.state)update(j.state);toast(j.message||({start:"Evolution started",pause:"Evolution paused",step:"Advanced one generation",restore:"Checkpoint restored",reset:"New universe initialized",speed:"Speed updated"}[action]||"Command completed"));if(action==="checkpoint"||action==="restore"||action==="reset")loadCheckpoints()}catch(e){toast("Command failed: "+e.message)}finally{busy=false;document.querySelectorAll("[data-action]").forEach(b=>b.disabled=false)}}
+document.querySelectorAll("[data-action]").forEach(b=>b.addEventListener("click",()=>{const a=b.dataset.action;if(a==="reset"&&!confirm("Start a new universe? The current state will first be saved as a checkpoint."))return;command(a)}));
+$("speedSlider").addEventListener("input",e=>{$("speedLabel").textContent=e.target.value+" / 500 — MAX REQUESTED BATCH"});
+$("speedSlider").addEventListener("change",e=>command("speed",{value:Number(e.target.value)}));
+async function loadCheckpoints(){try{const r=await fetch("/api/checkpoints?"+Date.now(),{cache:"no-store"}),j=await r.json(),host=$("checkpointList");host.innerHTML="";if(!j.checkpoints.length){host.textContent="No checkpoints saved yet.";return}j.checkpoints.forEach(c=>{const d=document.createElement("div");d.textContent=c.name+" · "+(c.bytes/1024).toFixed(1)+" KB";host.appendChild(d)})}catch(e){$("checkpointList").textContent="Checkpoint archive unavailable."}}
+$("refreshCheckpoints").addEventListener("click",loadCheckpoints);
+async function poll(){try{const r=await fetch("/api/state?"+Date.now(),{cache:"no-store"});if(!r.ok)throw new Error("HTTP "+r.status);update(await r.json())}catch(e){$("connection").textContent="● DISCONNECTED";$("connection").classList.add("bad")}pollHandle=setTimeout(poll,500)}
+document.querySelectorAll(".nav a").forEach(a=>a.addEventListener("click",()=>{document.querySelectorAll(".nav a").forEach(x=>x.classList.toggle("active",x===a))}));
+resize();loadCheckpoints();poll();
+})();
+</script>
+</body></html>
+'@
+
+Set-Content -Path $target -Value $html -Encoding UTF8
+Write-Host "`nDASHBOARD PATCHED WITHOUT STOPPING THE ENGINE." -ForegroundColor Green
+Write-Host "Backup: $backup" -ForegroundColor Yellow
+Write-Host "Updated: $target" -ForegroundColor Cyan
+Write-Host "`nNow refresh the existing browser tab with CTRL+F5." -ForegroundColor Green
+Write-Host "The Python server and current universe remain running." -ForegroundColor Green

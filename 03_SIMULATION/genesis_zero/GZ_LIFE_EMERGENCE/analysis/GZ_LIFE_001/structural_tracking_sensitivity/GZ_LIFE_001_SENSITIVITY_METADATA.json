@@ -1,0 +1,46 @@
+{
+  "experiment": "GZ-LIFE-001 Structural Tracking Sensitivity",
+  "method": "Independent reconstruction using circular shifted Jaccard and bipartite connected components",
+  "rules": [
+    67,
+    109,
+    137
+  ],
+  "configurations": [
+    {
+      "config": "A",
+      "max_shift": 0,
+      "jaccard_threshold": 0.5
+    },
+    {
+      "config": "B",
+      "max_shift": 1,
+      "jaccard_threshold": 0.5
+    },
+    {
+      "config": "C",
+      "max_shift": 3,
+      "jaccard_threshold": 0.5
+    },
+    {
+      "config": "D",
+      "max_shift": 5,
+      "jaccard_threshold": 0.5
+    },
+    {
+      "config": "E",
+      "max_shift": 3,
+      "jaccard_threshold": 0.7
+    },
+    {
+      "config": "F",
+      "max_shift": 3,
+      "jaccard_threshold": 0.9
+    }
+  ],
+  "summary_rows": 18,
+  "transition_rows": 25392,
+  "event_rows": 2164979,
+  "original_data_modified": false,
+  "interpretation": "All split/merge/complex classifications are geometric candidates, not demonstrated biological or digital reproduction."
+}

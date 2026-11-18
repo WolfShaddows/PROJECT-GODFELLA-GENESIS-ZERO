@@ -1,0 +1,83 @@
+DSHADOW-CELLS-002
+STUDY 035 — DEEP UNIVERSE FORENSIC ANALYSIS
+
+Generation: 614700
+Rule: 110
+Active cells: 363,266
+Spatial span: 614,740
+Coordinates: -614,720 to 19
+Density: 59.092624524%
+Components: 134,125
+Gaps: 134,124
+
+COMPONENT STATISTICS
+Mean length: 2.70841379
+Median length: 2.0
+Unique lengths: 7
+
+GAP STATISTICS
+Mean length: 1.87493663
+Median length: 2.0
+Unique lengths: 6
+
+REGIONAL DENSITY
+left: 59.377882321%
+center: 59.374466237%
+right: 58.525527782%
+
+EXACT PERIODS
+[]
+
+TOP AUTOCORRELATION PEAKS
+lag=800 correlation=0.931970045
+lag=1600 correlation=0.916921840
+lag=1440 correlation=0.892264879
+lag=1760 correlation=0.891473219
+lag=320 correlation=0.866853543
+lag=960 correlation=0.859232588
+lag=480 correlation=0.854802410
+lag=640 correlation=0.849501577
+lag=1920 correlation=0.847355851
+lag=1280 correlation=0.847267976
+lag=1120 correlation=0.844674943
+lag=160 correlation=0.843024339
+lag=1062 correlation=0.703233985
+lag=262 correlation=0.640923414
+lag=1338 correlation=0.638610181
+lag=1862 correlation=0.637686481
+lag=538 correlation=0.626638422
+lag=698 correlation=0.604108985
+lag=378 correlation=0.603567586
+lag=742 correlation=0.578889138
+lag=1818 correlation=0.576012987
+lag=1382 correlation=0.575897924
+lag=102 correlation=0.570856337
+lag=1178 correlation=0.569517064
+lag=2022 correlation=0.569222392
+
+EDGE DENSITIES
+Left: 59.384000000%
+Right: 57.228000000%
+
+PATTERN ENTROPY
+1 bits: entropy=0.976011547; unique=2
+2 bits: entropy=1.945192990; unique=4
+3 bits: entropy=2.889160061; unique=8
+4 bits: entropy=3.715502432; unique=16
+5 bits: entropy=4.176242937; unique=31
+6 bits: entropy=4.414675710; unique=58
+7 bits: entropy=4.644848202; unique=86
+8 bits: entropy=4.863499412; unique=117
+9 bits: entropy=5.069228681; unique=144
+10 bits: entropy=5.265502649; unique=169
+11 bits: entropy=5.461236539; unique=192
+12 bits: entropy=5.629814738; unique=215
+13 bits: entropy=5.796097563; unique=235
+14 bits: entropy=5.939869709; unique=254
+15 bits: entropy=6.065652877; unique=271
+16 bits: entropy=6.180488850; unique=288
+
+SHA256 integrity verified: True
+Analysis time: 0.81 seconds
+
+This is a spatial snapshot analysis, not proof of life.

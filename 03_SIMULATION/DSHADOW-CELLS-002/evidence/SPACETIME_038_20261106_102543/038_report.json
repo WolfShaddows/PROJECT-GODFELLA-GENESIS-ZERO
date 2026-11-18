@@ -1,0 +1,154 @@
+{
+  "experiment": "038",
+  "status": "COMPLETED",
+  "source_generation": 614700,
+  "source_active_cells": 363266,
+  "source_span": 614740,
+  "simulation_generations": 500,
+  "frontier_start_index": 606548,
+  "frontier_width": 8192,
+  "initial_density": 0.572021484375,
+  "final_density": 0.5718994140625,
+  "best_one_step_shift": {
+    "spatial_shift": -4,
+    "mean_correlation": 0.9952681973619933,
+    "std_correlation": 0.00028669244651973044
+  },
+  "shift_correlations": [
+    {
+      "spatial_shift": -8,
+      "mean_correlation": 0.5689061583577714,
+      "std_correlation": 0.00028041965613138085
+    },
+    {
+      "spatial_shift": -7,
+      "mean_correlation": 0.5700579108124618,
+      "std_correlation": 0.00023456984314229406
+    },
+    {
+      "spatial_shift": -6,
+      "mean_correlation": 0.42992474957244065,
+      "std_correlation": 0.00016204043072760046
+    },
+    {
+      "spatial_shift": -5,
+      "mean_correlation": 0.5689207279833883,
+      "std_correlation": 0.00015819924367319675
+    },
+    {
+      "spatial_shift": -4,
+      "mean_correlation": 0.9952681973619933,
+      "std_correlation": 0.00028669244651973044
+    },
+    {
+      "spatial_shift": -3,
+      "mean_correlation": 0.5700571498351447,
+      "std_correlation": 0.00014627301307727902
+    },
+    {
+      "spatial_shift": -2,
+      "mean_correlation": 0.42996141636141655,
+      "std_correlation": 0.00016474668633375942
+    },
+    {
+      "spatial_shift": -1,
+      "mean_correlation": 0.5712787205469418,
+      "std_correlation": 0.00014120061675395863
+    },
+    {
+      "spatial_shift": 0,
+      "mean_correlation": 0.571261474609375,
+      "std_correlation": 0.00013254182947015501
+    },
+    {
+      "spatial_shift": 1,
+      "mean_correlation": 0.286268099133195,
+      "std_correlation": 6.156727276588535e-05
+    },
+    {
+      "spatial_shift": 2,
+      "mean_correlation": 0.4299606837606839,
+      "std_correlation": 0.00017037740960131544
+    },
+    {
+      "spatial_shift": 3,
+      "mean_correlation": 0.4287558920503114,
+      "std_correlation": 0.00014771760364033364
+    },
+    {
+      "spatial_shift": 4,
+      "mean_correlation": 0.4299611626770885,
+      "std_correlation": 0.00015417018027395407
+    },
+    {
+      "spatial_shift": 5,
+      "mean_correlation": 0.288589959692195,
+      "std_correlation": 0.0002182057055397745
+    },
+    {
+      "spatial_shift": 6,
+      "mean_correlation": 0.5712435866112876,
+      "std_correlation": 0.0001575813877019238
+    },
+    {
+      "spatial_shift": 7,
+      "mean_correlation": 0.568922174709835,
+      "std_correlation": 0.00019554122423089118
+    },
+    {
+      "spatial_shift": 8,
+      "mean_correlation": 0.4299606549364613,
+      "std_correlation": 0.0001647158020768765
+    }
+  ],
+  "temporal_recurrence": [
+    {
+      "lag": 1,
+      "mean_similarity": 0.571261474609375,
+      "std_similarity": 0.00013254182947015501
+    },
+    {
+      "lag": 2,
+      "mean_similarity": 0.430013347006513,
+      "std_similarity": 0.0001582326154195309
+    },
+    {
+      "lag": 5,
+      "mean_similarity": 0.4300128567603327,
+      "std_similarity": 0.00015776137333444292
+    },
+    {
+      "lag": 10,
+      "mean_similarity": 0.42997688868380857,
+      "std_similarity": 0.00015311902157609362
+    },
+    {
+      "lag": 20,
+      "mean_similarity": 0.5689268369932432,
+      "std_similarity": 0.00024053704134636964
+    },
+    {
+      "lag": 40,
+      "mean_similarity": 0.4311724681399132,
+      "std_similarity": 0.00024778550359333683
+    },
+    {
+      "lag": 80,
+      "mean_similarity": 0.4363483057452494,
+      "std_similarity": 0.0003839725369876555
+    },
+    {
+      "lag": 160,
+      "mean_similarity": 0.5574260275384897,
+      "std_similarity": 0.00040919688820589904
+    }
+  ],
+  "persistent_positions_95pct": 1,
+  "intermittent_positions": 8191,
+  "mostly_inactive_positions_5pct": 0,
+  "snapshot_sha256_before": "01705a4985358cd6e532a537f4f33b23e81fc2c799d1af3591670371fcd32907",
+  "snapshot_sha256_after": "01705a4985358cd6e532a537f4f33b23e81fc2c799d1af3591670371fcd32907",
+  "snapshot_unchanged": true,
+  "elapsed_seconds": 3.631,
+  "interpretation": "Spacetime mapping and statistical correlations are descriptive. A preferred shift or recurrence is not sufficient evidence for a glider, replicator, organism, or life."
+}

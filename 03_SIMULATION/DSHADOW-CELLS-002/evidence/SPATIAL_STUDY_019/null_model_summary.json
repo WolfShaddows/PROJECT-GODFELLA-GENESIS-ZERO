@@ -1,0 +1,15 @@
+{
+  "replicates": 199,
+  "seed": 20261119,
+  "null_type": "uniform random occupancy preserving active cell count",
+  "observed_max_acf": 0.8427132251468337,
+  "observed_max_lag": 160,
+  "observed_acf_at_160": 0.8427132251468337,
+  "null_peak_mean": 0.005253368337819966,
+  "null_peak_sd": 0.000730022001608148,
+  "null_peak_95_percentile": 0.006624882063820307,
+  "empirical_p_global_max": 0.005,
+  "null_acf_160_mean": 1.865531845849045e-05,
+  "null_acf_160_sd": 0.001774125283995929,
+  "empirical_p_lag_160": 0.005
+}

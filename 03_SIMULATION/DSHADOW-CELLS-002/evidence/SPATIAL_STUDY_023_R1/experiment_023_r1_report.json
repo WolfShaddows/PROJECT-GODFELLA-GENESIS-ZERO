@@ -1,0 +1,932 @@
+{
+  "experiment": "023_R1_PERIODICITY_PROPAGATION",
+  "rule": 110,
+  "initial_generation": 284970,
+  "period": 160,
+  "simulated_generations": 100,
+  "initial_region": {
+    "start": -284870,
+    "end_lower": -39804,
+    "paired_start": -284710,
+    "paired_end": -39644,
+    "length": 245067
+  },
+  "initial_mismatches": 0,
+  "all_generations_exact": true,
+  "first_failure": null,
+  "initial_comparisons": 245067,
+  "final_comparisons": 244867,
+  "final_mismatches": 0,
+  "results": [
+    {
+      "generation": 0,
+      "start_coordinate": -284870,
+      "end_coordinate": -39804,
+      "compared_pairs": 245067,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 1,
+      "start_coordinate": -284869,
+      "end_coordinate": -39805,
+      "compared_pairs": 245065,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 2,
+      "start_coordinate": -284868,
+      "end_coordinate": -39806,
+      "compared_pairs": 245063,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 3,
+      "start_coordinate": -284867,
+      "end_coordinate": -39807,
+      "compared_pairs": 245061,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 4,
+      "start_coordinate": -284866,
+      "end_coordinate": -39808,
+      "compared_pairs": 245059,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 5,
+      "start_coordinate": -284865,
+      "end_coordinate": -39809,
+      "compared_pairs": 245057,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 6,
+      "start_coordinate": -284864,
+      "end_coordinate": -39810,
+      "compared_pairs": 245055,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 7,
+      "start_coordinate": -284863,
+      "end_coordinate": -39811,
+      "compared_pairs": 245053,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 8,
+      "start_coordinate": -284862,
+      "end_coordinate": -39812,
+      "compared_pairs": 245051,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 9,
+      "start_coordinate": -284861,
+      "end_coordinate": -39813,
+      "compared_pairs": 245049,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 10,
+      "start_coordinate": -284860,
+      "end_coordinate": -39814,
+      "compared_pairs": 245047,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 11,
+      "start_coordinate": -284859,
+      "end_coordinate": -39815,
+      "compared_pairs": 245045,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 12,
+      "start_coordinate": -284858,
+      "end_coordinate": -39816,
+      "compared_pairs": 245043,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 13,
+      "start_coordinate": -284857,
+      "end_coordinate": -39817,
+      "compared_pairs": 245041,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 14,
+      "start_coordinate": -284856,
+      "end_coordinate": -39818,
+      "compared_pairs": 245039,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 15,
+      "start_coordinate": -284855,
+      "end_coordinate": -39819,
+      "compared_pairs": 245037,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 16,
+      "start_coordinate": -284854,
+      "end_coordinate": -39820,
+      "compared_pairs": 245035,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 17,
+      "start_coordinate": -284853,
+      "end_coordinate": -39821,
+      "compared_pairs": 245033,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 18,
+      "start_coordinate": -284852,
+      "end_coordinate": -39822,
+      "compared_pairs": 245031,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 19,
+      "start_coordinate": -284851,
+      "end_coordinate": -39823,
+      "compared_pairs": 245029,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 20,
+      "start_coordinate": -284850,
+      "end_coordinate": -39824,
+      "compared_pairs": 245027,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 21,
+      "start_coordinate": -284849,
+      "end_coordinate": -39825,
+      "compared_pairs": 245025,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 22,
+      "start_coordinate": -284848,
+      "end_coordinate": -39826,
+      "compared_pairs": 245023,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 23,
+      "start_coordinate": -284847,
+      "end_coordinate": -39827,
+      "compared_pairs": 245021,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 24,
+      "start_coordinate": -284846,
+      "end_coordinate": -39828,
+      "compared_pairs": 245019,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 25,
+      "start_coordinate": -284845,
+      "end_coordinate": -39829,
+      "compared_pairs": 245017,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 26,
+      "start_coordinate": -284844,
+      "end_coordinate": -39830,
+      "compared_pairs": 245015,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 27,
+      "start_coordinate": -284843,
+      "end_coordinate": -39831,
+      "compared_pairs": 245013,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 28,
+      "start_coordinate": -284842,
+      "end_coordinate": -39832,
+      "compared_pairs": 245011,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 29,
+      "start_coordinate": -284841,
+      "end_coordinate": -39833,
+      "compared_pairs": 245009,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 30,
+      "start_coordinate": -284840,
+      "end_coordinate": -39834,
+      "compared_pairs": 245007,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 31,
+      "start_coordinate": -284839,
+      "end_coordinate": -39835,
+      "compared_pairs": 245005,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 32,
+      "start_coordinate": -284838,
+      "end_coordinate": -39836,
+      "compared_pairs": 245003,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 33,
+      "start_coordinate": -284837,
+      "end_coordinate": -39837,
+      "compared_pairs": 245001,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 34,
+      "start_coordinate": -284836,
+      "end_coordinate": -39838,
+      "compared_pairs": 244999,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 35,
+      "start_coordinate": -284835,
+      "end_coordinate": -39839,
+      "compared_pairs": 244997,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 36,
+      "start_coordinate": -284834,
+      "end_coordinate": -39840,
+      "compared_pairs": 244995,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 37,
+      "start_coordinate": -284833,
+      "end_coordinate": -39841,
+      "compared_pairs": 244993,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 38,
+      "start_coordinate": -284832,
+      "end_coordinate": -39842,
+      "compared_pairs": 244991,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 39,
+      "start_coordinate": -284831,
+      "end_coordinate": -39843,
+      "compared_pairs": 244989,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 40,
+      "start_coordinate": -284830,
+      "end_coordinate": -39844,
+      "compared_pairs": 244987,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 41,
+      "start_coordinate": -284829,
+      "end_coordinate": -39845,
+      "compared_pairs": 244985,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 42,
+      "start_coordinate": -284828,
+      "end_coordinate": -39846,
+      "compared_pairs": 244983,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 43,
+      "start_coordinate": -284827,
+      "end_coordinate": -39847,
+      "compared_pairs": 244981,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 44,
+      "start_coordinate": -284826,
+      "end_coordinate": -39848,
+      "compared_pairs": 244979,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 45,
+      "start_coordinate": -284825,
+      "end_coordinate": -39849,
+      "compared_pairs": 244977,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 46,
+      "start_coordinate": -284824,
+      "end_coordinate": -39850,
+      "compared_pairs": 244975,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 47,
+      "start_coordinate": -284823,
+      "end_coordinate": -39851,
+      "compared_pairs": 244973,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 48,
+      "start_coordinate": -284822,
+      "end_coordinate": -39852,
+      "compared_pairs": 244971,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 49,
+      "start_coordinate": -284821,
+      "end_coordinate": -39853,
+      "compared_pairs": 244969,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 50,
+      "start_coordinate": -284820,
+      "end_coordinate": -39854,
+      "compared_pairs": 244967,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 51,
+      "start_coordinate": -284819,
+      "end_coordinate": -39855,
+      "compared_pairs": 244965,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 52,
+      "start_coordinate": -284818,
+      "end_coordinate": -39856,
+      "compared_pairs": 244963,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 53,
+      "start_coordinate": -284817,
+      "end_coordinate": -39857,
+      "compared_pairs": 244961,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 54,
+      "start_coordinate": -284816,
+      "end_coordinate": -39858,
+      "compared_pairs": 244959,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 55,
+      "start_coordinate": -284815,
+      "end_coordinate": -39859,
+      "compared_pairs": 244957,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 56,
+      "start_coordinate": -284814,
+      "end_coordinate": -39860,
+      "compared_pairs": 244955,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 57,
+      "start_coordinate": -284813,
+      "end_coordinate": -39861,
+      "compared_pairs": 244953,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 58,
+      "start_coordinate": -284812,
+      "end_coordinate": -39862,
+      "compared_pairs": 244951,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 59,
+      "start_coordinate": -284811,
+      "end_coordinate": -39863,
+      "compared_pairs": 244949,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 60,
+      "start_coordinate": -284810,
+      "end_coordinate": -39864,
+      "compared_pairs": 244947,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 61,
+      "start_coordinate": -284809,
+      "end_coordinate": -39865,
+      "compared_pairs": 244945,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 62,
+      "start_coordinate": -284808,
+      "end_coordinate": -39866,
+      "compared_pairs": 244943,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 63,
+      "start_coordinate": -284807,
+      "end_coordinate": -39867,
+      "compared_pairs": 244941,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 64,
+      "start_coordinate": -284806,
+      "end_coordinate": -39868,
+      "compared_pairs": 244939,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 65,
+      "start_coordinate": -284805,
+      "end_coordinate": -39869,
+      "compared_pairs": 244937,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 66,
+      "start_coordinate": -284804,
+      "end_coordinate": -39870,
+      "compared_pairs": 244935,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 67,
+      "start_coordinate": -284803,
+      "end_coordinate": -39871,
+      "compared_pairs": 244933,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 68,
+      "start_coordinate": -284802,
+      "end_coordinate": -39872,
+      "compared_pairs": 244931,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 69,
+      "start_coordinate": -284801,
+      "end_coordinate": -39873,
+      "compared_pairs": 244929,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 70,
+      "start_coordinate": -284800,
+      "end_coordinate": -39874,
+      "compared_pairs": 244927,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 71,
+      "start_coordinate": -284799,
+      "end_coordinate": -39875,
+      "compared_pairs": 244925,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 72,
+      "start_coordinate": -284798,
+      "end_coordinate": -39876,
+      "compared_pairs": 244923,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 73,
+      "start_coordinate": -284797,
+      "end_coordinate": -39877,
+      "compared_pairs": 244921,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 74,
+      "start_coordinate": -284796,
+      "end_coordinate": -39878,
+      "compared_pairs": 244919,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 75,
+      "start_coordinate": -284795,
+      "end_coordinate": -39879,
+      "compared_pairs": 244917,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 76,
+      "start_coordinate": -284794,
+      "end_coordinate": -39880,
+      "compared_pairs": 244915,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 77,
+      "start_coordinate": -284793,
+      "end_coordinate": -39881,
+      "compared_pairs": 244913,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 78,
+      "start_coordinate": -284792,
+      "end_coordinate": -39882,
+      "compared_pairs": 244911,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 79,
+      "start_coordinate": -284791,
+      "end_coordinate": -39883,
+      "compared_pairs": 244909,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 80,
+      "start_coordinate": -284790,
+      "end_coordinate": -39884,
+      "compared_pairs": 244907,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 81,
+      "start_coordinate": -284789,
+      "end_coordinate": -39885,
+      "compared_pairs": 244905,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 82,
+      "start_coordinate": -284788,
+      "end_coordinate": -39886,
+      "compared_pairs": 244903,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 83,
+      "start_coordinate": -284787,
+      "end_coordinate": -39887,
+      "compared_pairs": 244901,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 84,
+      "start_coordinate": -284786,
+      "end_coordinate": -39888,
+      "compared_pairs": 244899,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 85,
+      "start_coordinate": -284785,
+      "end_coordinate": -39889,
+      "compared_pairs": 244897,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 86,
+      "start_coordinate": -284784,
+      "end_coordinate": -39890,
+      "compared_pairs": 244895,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 87,
+      "start_coordinate": -284783,
+      "end_coordinate": -39891,
+      "compared_pairs": 244893,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 88,
+      "start_coordinate": -284782,
+      "end_coordinate": -39892,
+      "compared_pairs": 244891,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 89,
+      "start_coordinate": -284781,
+      "end_coordinate": -39893,
+      "compared_pairs": 244889,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 90,
+      "start_coordinate": -284780,
+      "end_coordinate": -39894,
+      "compared_pairs": 244887,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 91,
+      "start_coordinate": -284779,
+      "end_coordinate": -39895,
+      "compared_pairs": 244885,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 92,
+      "start_coordinate": -284778,
+      "end_coordinate": -39896,
+      "compared_pairs": 244883,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 93,
+      "start_coordinate": -284777,
+      "end_coordinate": -39897,
+      "compared_pairs": 244881,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 94,
+      "start_coordinate": -284776,
+      "end_coordinate": -39898,
+      "compared_pairs": 244879,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 95,
+      "start_coordinate": -284775,
+      "end_coordinate": -39899,
+      "compared_pairs": 244877,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 96,
+      "start_coordinate": -284774,
+      "end_coordinate": -39900,
+      "compared_pairs": 244875,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 97,
+      "start_coordinate": -284773,
+      "end_coordinate": -39901,
+      "compared_pairs": 244873,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 98,
+      "start_coordinate": -284772,
+      "end_coordinate": -39902,
+      "compared_pairs": 244871,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 99,
+      "start_coordinate": -284771,
+      "end_coordinate": -39903,
+      "compared_pairs": 244869,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    },
+    {
+      "generation": 100,
+      "start_coordinate": -284770,
+      "end_coordinate": -39904,
+      "compared_pairs": 244867,
+      "mismatches": 0,
+      "match_rate": 1.0,
+      "exact_period_160": true
+    }
+  ],
+  "snapshot_sha256": "9179998e116c96e81ecedfc5919c1c73d8e25e92a2b2db4fcf0bfad82081a5fc"
+}

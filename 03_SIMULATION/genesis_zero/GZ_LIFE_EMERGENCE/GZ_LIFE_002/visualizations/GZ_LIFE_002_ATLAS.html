@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GENESIS ZERO | Evolution Atlas</title>
+
+<style>
+:root {
+    --bg: #080d16;
+    --panel: #111d2d;
+    --gold: #e9b84f;
+    --text: #e8edf5;
+    --muted: #9aaabd;
+    --border: #344963;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: Segoe UI, Arial, sans-serif;
+}
+
+header {
+    padding: 42px 5%;
+    background: linear-gradient(120deg,#101c2c,#080d16);
+    border-bottom: 1px solid var(--border);
+}
+
+.kicker {
+    color: var(--gold);
+    letter-spacing: 4px;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: clamp(32px,5vw,58px);
+    margin: 12px 0;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    color: var(--muted);
+    font-size: 17px;
+}
+
+main {
+    max-width: 1500px;
+    margin: auto;
+    padding: 30px 4%;
+}
+
+.section-title {
+    color: var(--gold);
+    letter-spacing: 2px;
+    margin: 38px 0 18px;
+    font-size: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 20px;
+}
+
+.card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px;
+    overflow: hidden;
+}
+
+.card h2 {
+    margin-top: 0;
+    color: var(--gold);
+}
+
+.gif {
+    width: 100%;
+    display: block;
+    border-radius: 7px;
+    background: #080d16;
+}
+
+.chart {
+    width: 100%;
+    display: block;
+    border-radius: 7px;
+    cursor: zoom-in;
+}
+
+.metrics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(190px,1fr));
+    gap: 14px;
+}
+
+.metric {
+    background: var(--panel);
+    padding: 20px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+}
+
+.metric strong {
+    display: block;
+    font-size: 25px;
+    color: var(--gold);
+    margin-top: 8px;
+}
+
+.metric span {
+    color: var(--muted);
+    font-size: 13px;
+}
+
+.note {
+    color: var(--muted);
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    padding: 45px 15px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    letter-spacing: 3px;
+}
+
+.gold { color: var(--gold); }
+
+@media(max-width:600px) {
+    header { padding: 28px 20px; }
+    main { padding: 20px 14px; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="kicker">PROJECT GODFELLA / DARKSHADOWS GROUP</div>
+    <h1>GENESIS ZERO</h1>
+    <div class="subtitle">
+        GZ-LIFE-002 — Structural Reproduction & Information Transmission
+    </div>
+</header>
+
+<main>
+
+<h2 class="section-title">01 / LIVE STRUCTURAL VISUALIZATION</h2>
+
+<div class="grid">
+
+    <section class="card">
+        <h2>RULE 067</h2>
+        <img class="gif" src="GZ_LIFE_002_RULE_067.gif">
+        <p class="note">Periodic structural dynamics — 512-cycle period.</p>
+    </section>
+
+    <section class="card">
+        <h2>RULE 109</h2>
+        <img class="gif" src="GZ_LIFE_002_RULE_109.gif">
+        <p class="note">High candidate-association activity — 2,760-cycle period.</p>
+    </section>
+
+    <section class="card">
+        <h2>RULE 137</h2>
+        <img class="gif" src="GZ_LIFE_002_RULE_137.gif">
+        <p class="note">Distinct spatial organization — 960-cycle period.</p>
+    </section>
+
+</div>
+
+<h2 class="section-title">02 / EXPERIMENTAL INDICATORS</h2>
+
+<div class="metrics">
+
+    <div class="metric">
+        <span>TOTAL CANDIDATE ASSOCIATIONS</span>
+        <strong>493,290</strong>
+    </div>
+
+    <div class="metric">
+        <span>CANDIDATE SPLIT EVENTS</span>
+        <strong>130,134</strong>
+    </div>
+
+    <div class="metric">
+        <span>CANDIDATE MERGE EVENTS</span>
+        <strong>106,814</strong>
+    </div>
+
+    <div class="metric">
+        <span>TRANSITIONS ANALYZED</span>
+        <strong>8,464</strong>
+    </div>
+
+</div>
+
+<h2 class="section-title">03 / COMPARATIVE ANALYSIS</h2>
+
+<div class="grid">
+
+    <section class="card">
+        <h2>Candidate Associations</h2>
+        <img class="chart" src="GZ_LIFE_002_01_ASSOCIATIONS.png">
+    </section>
+
+    <section class="card">
+        <h2>Splits & Merges</h2>
+        <img class="chart" src="GZ_LIFE_002_02_SPLITS_MERGES.png">
+    </section>
+
+    <section class="card">
+        <h2>Temporal Evolution</h2>
+        <img class="chart" src="GZ_LIFE_002_03_TEMPORAL_EVOLUTION.png">
+    </section>
+
+    <section class="card">
+        <h2>Comparative Dashboard</h2>
+        <img class="chart" src="GZ_LIFE_002_04_ATLAS_DASHBOARD.png">
+    </section>
+
+</div>
+
+<h2 class="section-title">04 / EXPERIMENTAL FRAMEWORK</h2>
+
+<section class="card">
+    <h2>Methodology</h2>
+    <p class="note">
+        Three deterministic cellular automata rules were examined
+        over two complete periodic cycles each.
+    </p>
+    <p class="note">
+        Structural associations were identified using connected
+        components, circular shifts up to three cells, and a
+        Jaccard similarity threshold of 0.50.
+    </p>
+    <p class="note">
+        Split and merge events represent geometric candidate
+        associations. They do not establish biological reproduction,
+        individual identity, or hereditary information transmission.
+    </p>
+    <p class="note">
+        Original trajectories remain unchanged.
+    </p>
+</section>
+
+</main>
+
+<footer>
+    <div class="gold">GENESIS ZERO</div>
+    PROJECT GODFELLA<br><br>
+    DARKSHADOWS GROUP
+</footer>
+
+</body>
+</html>

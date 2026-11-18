@@ -1,0 +1,73 @@
+STUDY 032 — EDGE STATISTICAL INVARIANCE
+Historical generation: 284970
+Live generation: 511660
+Historical SHA256: 9179998e116c96e81ecedfc5919c1c73d8e25e92a2b2db4fcf0bfad82081a5fc
+Live SHA256: 65a7c8c82c35dc9d9a0cddde02b93eb4539a66624920949f1826c6094d510b2c
+
+=== RIGHT_EDGE_50000 ===
+historical: density=57.768000%, entropy=0.982518
+  active runs mean=2.6809; inactive runs mean=1.9599
+  ACF: 1=0.1168, 2=-0.1657, 3=0.0954, 4=0.1100, 5=-0.4158, 10=0.1082, 20=-0.0802, 40=0.0499, 80=0.0076, 160=0.1109, 262=0.5351, 320=0.2459
+  2-bit patterns: entropy=1.95521, unique=4
+  3-bit patterns: entropy=2.89588, unique=8
+  4-bit patterns: entropy=3.69508, unique=16
+  5-bit patterns: entropy=3.99325, unique=25
+live: density=57.282000%, entropy=0.984645
+  active runs mean=2.6692; inactive runs mean=1.9908
+  ACF: 1=0.1231, 2=-0.1664, 3=0.1185, 4=0.1213, 5=-0.4495, 10=0.1171, 20=-0.1442, 40=-0.0406, 80=0.0580, 160=-0.1249, 262=0.3148, 320=0.1070
+  2-bit patterns: entropy=1.95838, unique=4
+  3-bit patterns: entropy=2.89644, unique=8
+  4-bit patterns: entropy=3.67478, unique=15
+  5-bit patterns: entropy=3.86901, unique=24
+Density change (pp): -0.486000
+
+=== INTERIOR_1 ===
+historical: density=59.374000%, entropy=0.974495
+  active runs mean=2.7141; inactive runs mean=1.8571
+  ACF: 1=0.0931, 2=-0.1660, 3=0.0153, 4=0.0671, 5=-0.2956, 10=0.0931, 20=0.1709, 40=0.1450, 80=-0.0623, 160=1.0000, 262=0.6632, 320=1.0000
+  2-bit patterns: entropy=1.94275, unique=4
+  3-bit patterns: entropy=2.88670, unique=8
+  4-bit patterns: entropy=3.71510, unique=14
+  5-bit patterns: entropy=4.19842, unique=20
+live: density=58.954000%, entropy=0.976741
+  active runs mean=2.7056; inactive runs mean=1.8835
+  ACF: 1=0.0995, 2=-0.1658, 3=0.0368, 4=0.0793, 5=-0.3283, 10=0.0949, 20=0.0994, 40=0.1530, 80=-0.0598, 160=0.7537, 262=0.7245, 320=0.7604
+  2-bit patterns: entropy=1.94635, unique=4
+  3-bit patterns: entropy=2.89022, unique=8
+  4-bit patterns: entropy=3.71496, unique=15
+  5-bit patterns: entropy=4.16274, unique=22
+Density change (pp): -0.420000
+
+=== INTERIOR_2 ===
+historical: density=59.374000%, entropy=0.974495
+  active runs mean=2.7141; inactive runs mean=1.8571
+  ACF: 1=0.0931, 2=-0.1660, 3=0.0153, 4=0.0671, 5=-0.2956, 10=0.0931, 20=0.1709, 40=0.1450, 80=-0.0623, 160=1.0000, 262=0.6632, 320=1.0000
+  2-bit patterns: entropy=1.94275, unique=4
+  3-bit patterns: entropy=2.88670, unique=8
+  4-bit patterns: entropy=3.71510, unique=14
+  5-bit patterns: entropy=4.19842, unique=20
+live: density=59.374000%, entropy=0.974495
+  active runs mean=2.7144; inactive runs mean=1.8571
+  ACF: 1=0.0931, 2=-0.1660, 3=0.0153, 4=0.0671, 5=-0.2955, 10=0.0931, 20=0.1708, 40=0.1451, 80=-0.0623, 160=1.0000, 262=0.6630, 320=1.0000
+  2-bit patterns: entropy=1.94274, unique=4
+  3-bit patterns: entropy=2.88669, unique=8
+  4-bit patterns: entropy=3.71508, unique=14
+  5-bit patterns: entropy=4.19845, unique=20
+Density change (pp): +0.000000
+
+=== INTERIOR_3 ===
+historical: density=59.374000%, entropy=0.974495
+  active runs mean=2.7141; inactive runs mean=1.8571
+  ACF: 1=0.0931, 2=-0.1660, 3=0.0153, 4=0.0671, 5=-0.2956, 10=0.0931, 20=0.1709, 40=0.1450, 80=-0.0623, 160=1.0000, 262=0.6632, 320=1.0000
+  2-bit patterns: entropy=1.94275, unique=4
+  3-bit patterns: entropy=2.88670, unique=8
+  4-bit patterns: entropy=3.71510, unique=14
+  5-bit patterns: entropy=4.19842, unique=20
+live: density=59.374000%, entropy=0.974495
+  active runs mean=2.7144; inactive runs mean=1.8571
+  ACF: 1=0.0931, 2=-0.1660, 3=0.0153, 4=0.0671, 5=-0.2955, 10=0.0931, 20=0.1708, 40=0.1451, 80=-0.0623, 160=1.0000, 262=0.6630, 320=1.0000
+  2-bit patterns: entropy=1.94274, unique=4
+  3-bit patterns: entropy=2.88669, unique=8
+  4-bit patterns: entropy=3.71508, unique=14
+  5-bit patterns: entropy=4.19845, unique=20
+Density change (pp): +0.000000

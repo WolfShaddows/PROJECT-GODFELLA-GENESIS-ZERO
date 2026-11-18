@@ -1,0 +1,26 @@
+{
+  "supervisor_version": "0.2",
+  "start_utc": "2026-11-01T10:18:43.624140+00:00",
+  "duration_configured_seconds": 120,
+  "interval_seconds": 5.0,
+  "platform": "Windows-11-10.0.26300-SP0",
+  "python": "3.14.3",
+  "psutil": "7.2.2",
+  "temperature_status": "not_measured",
+  "temperature_reason": "No validated temperature sensor integration in v0.2",
+  "api_endpoint": "GET http://127.0.0.1:11434/api/ps",
+  "observer_mode": "passive_read_only",
+  "end_utc": "2026-11-01T10:20:43.608619+00:00",
+  "elapsed_actual_seconds": 120.001,
+  "samples": 24,
+  "api_success_samples": 24,
+  "api_error_samples": 0,
+  "observed_pids": [
+    10956,
+    11768,
+    13772
+  ],
+  "observed_models": [],
+  "process_records": 72,
+  "errors": []
+}

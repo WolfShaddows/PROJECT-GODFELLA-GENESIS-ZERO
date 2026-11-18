@@ -1,0 +1,223 @@
+{
+  "study": "030 - EDGE-ALIGNED DENSITY PROFILE",
+  "window_widths": [
+    100,
+    1000
+  ],
+  "sustained_drop_windows": 5,
+  "threshold_drop": 0.005,
+  "threshold_definition": "Interior density minus 0.005",
+  "partial_windows": "Excluded",
+  "snapshots": [
+    {
+      "generation": 284970,
+      "snapshot": "C:\\Users\\PC\\Desktop\\PROJECT GODFELLA\\03_SIMULATION\\DSHADOW-CELLS-002\\evidence\\UNIVERSE_EXPORT_20261105_112658\\universe_snapshot.json",
+      "sha256": "9179998e116c96e81ecedfc5919c1c73d8e25e92a2b2db4fcf0bfad82081a5fc",
+      "minimum": -284990,
+      "maximum": 19,
+      "span": 285010,
+      "active": 168417,
+      "global_density": 0.5909161082067296,
+      "interior_coordinates": [
+        -227988,
+        -56983
+      ],
+      "interior_density": 0.5937569442007883,
+      "profiles": {
+        "left_100": {
+          "window_width": 100,
+          "side": "left",
+          "full_windows": 2850,
+          "mean_density": 0.590919298245614,
+          "sd_density": 0.01379030219376139,
+          "min_density": 0.56,
+          "max_density": 0.61,
+          "transition": {
+            "first_window_index": 2453,
+            "distance_start": 245300,
+            "distance_end": 245799,
+            "first_coordinate_start": -39690,
+            "first_coordinate_end": -39591,
+            "last_coordinate_start": -39290,
+            "last_coordinate_end": -39191,
+            "mean_density": 0.57,
+            "baseline_density": 0.5937569442007883,
+            "cutoff_density": 0.5887569442007883,
+            "consecutive_windows": 5
+          }
+        },
+        "right_100": {
+          "window_width": 100,
+          "side": "right",
+          "full_windows": 2850,
+          "mean_density": 0.5909263157894736,
+          "sd_density": 0.013906385335278883,
+          "min_density": 0.55,
+          "max_density": 0.61,
+          "transition": {
+            "first_window_index": 0,
+            "distance_start": 0,
+            "distance_end": 499,
+            "first_coordinate_start": -80,
+            "first_coordinate_end": 19,
+            "last_coordinate_start": -480,
+            "last_coordinate_end": -381,
+            "mean_density": 0.574,
+            "baseline_density": 0.5937569442007883,
+            "cutoff_density": 0.5887569442007883,
+            "consecutive_windows": 5
+          }
+        },
+        "left_1000": {
+          "window_width": 1000,
+          "side": "left",
+          "full_windows": 285,
+          "mean_density": 0.590919298245614,
+          "sd_density": 0.007162069645905716,
+          "min_density": 0.569,
+          "max_density": 0.596,
+          "transition": {
+            "first_window_index": 245,
+            "distance_start": 245000,
+            "distance_end": 249999,
+            "first_coordinate_start": -39990,
+            "first_coordinate_end": -38991,
+            "last_coordinate_start": -35990,
+            "last_coordinate_end": -34991,
+            "mean_density": 0.5766,
+            "baseline_density": 0.5937569442007883,
+            "cutoff_density": 0.5887569442007883,
+            "consecutive_windows": 5
+          }
+        },
+        "right_1000": {
+          "window_width": 1000,
+          "side": "right",
+          "full_windows": 285,
+          "mean_density": 0.5909263157894736,
+          "sd_density": 0.007242044063388912,
+          "min_density": 0.569,
+          "max_density": 0.596,
+          "transition": {
+            "first_window_index": 0,
+            "distance_start": 0,
+            "distance_end": 4999,
+            "first_coordinate_start": -980,
+            "first_coordinate_end": 19,
+            "last_coordinate_start": -4980,
+            "last_coordinate_end": -3981,
+            "mean_density": 0.5721999999999999,
+            "baseline_density": 0.5937569442007883,
+            "cutoff_density": 0.5887569442007883,
+            "consecutive_windows": 5
+          }
+        }
+      }
+    },
+    {
+      "generation": 511660,
+      "snapshot": "C:\\Users\\PC\\Desktop\\PROJECT GODFELLA\\03_SIMULATION\\DSHADOW-CELLS-002\\evidence\\SPATIAL_STUDY_025_20261105_232652\\live_snapshot.json",
+      "sha256": "65a7c8c82c35dc9d9a0cddde02b93eb4539a66624920949f1826c6094d510b2c",
+      "minimum": -511680,
+      "maximum": 19,
+      "span": 511700,
+      "active": 302381,
+      "global_density": 0.5909341410982998,
+      "interior_coordinates": [
+        -409340,
+        -102321
+      ],
+      "interior_density": 0.5937463357435998,
+      "profiles": {
+        "left_100": {
+          "window_width": 100,
+          "side": "left",
+          "full_windows": 5117,
+          "mean_density": 0.5909341410982998,
+          "sd_density": 0.014236718440507804,
+          "min_density": 0.55,
+          "max_density": 0.64,
+          "transition": {
+            "first_window_index": 4762,
+            "distance_start": 476200,
+            "distance_end": 476699,
+            "first_coordinate_start": -35480,
+            "first_coordinate_end": -35381,
+            "last_coordinate_start": -35080,
+            "last_coordinate_end": -34981,
+            "mean_density": 0.57,
+            "baseline_density": 0.5937463357435998,
+            "cutoff_density": 0.5887463357435998,
+            "consecutive_windows": 5
+          }
+        },
+        "right_100": {
+          "window_width": 100,
+          "side": "right",
+          "full_windows": 5117,
+          "mean_density": 0.5909341410982998,
+          "sd_density": 0.014236718440507804,
+          "min_density": 0.55,
+          "max_density": 0.64,
+          "transition": {
+            "first_window_index": 0,
+            "distance_start": 0,
+            "distance_end": 499,
+            "first_coordinate_start": -80,
+            "first_coordinate_end": 19,
+            "last_coordinate_start": -480,
+            "last_coordinate_end": -381,
+            "mean_density": 0.572,
+            "baseline_density": 0.5937463357435998,
+            "cutoff_density": 0.5887463357435998,
+            "consecutive_windows": 5
+          }
+        },
+        "left_1000": {
+          "window_width": 1000,
+          "side": "left",
+          "full_windows": 511,
+          "mean_density": 0.5909569471624266,
+          "sd_density": 0.007266394896354855,
+          "min_density": 0.569,
+          "max_density": 0.6,
+          "transition": {
+            "first_window_index": 440,
+            "distance_start": 440000,
+            "distance_end": 444999,
+            "first_coordinate_start": -71680,
+            "first_coordinate_end": -70681,
+            "last_coordinate_start": -67680,
+            "last_coordinate_end": -66681,
+            "mean_density": 0.5771999999999999,
+            "baseline_density": 0.5937463357435998,
+            "cutoff_density": 0.5887463357435998,
+            "consecutive_windows": 5
+          }
+        },
+        "right_1000": {
+          "window_width": 1000,
+          "side": "right",
+          "full_windows": 511,
+          "mean_density": 0.5909236790606653,
+          "sd_density": 0.007201329443929901,
+          "min_density": 0.569,
+          "max_density": 0.596,
+          "transition": {
+            "first_window_index": 0,
+            "distance_start": 0,
+            "distance_end": 4999,
+            "first_coordinate_start": -980,
+            "first_coordinate_end": 19,
+            "last_coordinate_start": -4980,
+            "last_coordinate_end": -3981,
+            "mean_density": 0.572,
+            "baseline_density": 0.5937463357435998,
+            "cutoff_density": 0.5887463357435998,
+            "consecutive_windows": 5
+          }
+        }
+      }
+    }
+  ]
+}

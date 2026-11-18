@@ -1,0 +1,14 @@
+{
+  "replicates": 199,
+  "seed": 20261120,
+  "null_model": "uniform random positions preserving active cell count",
+  "observed_match_rate_160": 0.9239354045989117,
+  "observed_pearson_160": 0.8426677150057096,
+  "null_match_mean_160": 0.51651032060425,
+  "null_match_sd_160": 0.0009052378695382119,
+  "null_match_95_percentile": 0.5181899245216781,
+  "empirical_p_match_160": 0.005,
+  "observed_max_match_150_170": 0.9239354045989117,
+  "null_max_match_95_percentile": 0.5189947941523076,
+  "empirical_p_max_match_150_170": 0.005
+}

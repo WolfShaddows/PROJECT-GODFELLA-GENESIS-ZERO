@@ -1,0 +1,22 @@
+{
+  "experiment": "GZ-LIFE-002",
+  "title": "Structural Reproduction and Information Transmission",
+  "version": "1.0",
+  "source_experiment": "GZ-EMERGENCE-001",
+  "rules": [
+    67,
+    109,
+    137
+  ],
+  "observations": [
+    "candidate_reproduction",
+    "parent_offspring_similarity",
+    "structural_variation",
+    "information_transmission"
+  ],
+  "original_trajectories_read_only": true,
+  "artificial_reproduction_mechanisms": false,
+  "predefined_organisms": false,
+  "ai_inside_substrate": false,
+  "random_seed": 20261104
+}

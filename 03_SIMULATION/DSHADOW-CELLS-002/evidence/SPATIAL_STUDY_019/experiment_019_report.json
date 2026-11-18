@@ -1,0 +1,326 @@
+{
+  "experiment": "019_SPATIAL_PEAK_VALIDATION",
+  "rule": 110,
+  "generation": 284970,
+  "active_cells": 168417,
+  "span": 285010,
+  "density": 0.5909161082067296,
+  "snapshot_sha256": "9179998e116c96e81ecedfc5919c1c73d8e25e92a2b2db4fcf0bfad82081a5fc",
+  "global_peak": {
+    "lag": 160,
+    "correlation": 0.8427132251468337
+  },
+  "global_acf_at_160": 0.8427132251468337,
+  "local_acf_at_160": 0.8426677150057198,
+  "lag_140_180": [
+    {
+      "lag": 140,
+      "global_acf": 0.20625881051981124,
+      "local_acf": 0.20622178222749016
+    },
+    {
+      "lag": 141,
+      "global_acf": -0.17700586440353547,
+      "local_acf": -0.17705556591828933
+    },
+    {
+      "lag": 142,
+      "global_acf": 0.09676209264485852,
+      "local_acf": 0.0967044382657517
+    },
+    {
+      "lag": 143,
+      "global_acf": -0.05164501923107449,
+      "local_acf": -0.05169693338405238
+    },
+    {
+      "lag": 144,
+      "global_acf": -0.05654850634768705,
+      "local_acf": -0.05660203356797766
+    },
+    {
+      "lag": 145,
+      "global_acf": -0.12129667548181922,
+      "local_acf": -0.1213610627844231
+    },
+    {
+      "lag": 146,
+      "global_acf": 0.3076566241823399,
+      "local_acf": 0.3075949218766711
+    },
+    {
+      "lag": 147,
+      "global_acf": -0.08948425555833363,
+      "local_acf": -0.08954279797816057
+    },
+    {
+      "lag": 148,
+      "global_acf": -0.03709854347040643,
+      "local_acf": -0.037149559359506264
+    },
+    {
+      "lag": 149,
+      "global_acf": -0.11851890030951455,
+      "local_acf": -0.11856340263530186
+    },
+    {
+      "lag": 150,
+      "global_acf": 0.09234708309118717,
+      "local_acf": 0.09231092002173047
+    },
+    {
+      "lag": 151,
+      "global_acf": -0.1929648129054906,
+      "local_acf": -0.1930041932106464
+    },
+    {
+      "lag": 152,
+      "global_acf": -0.02909155319604823,
+      "local_acf": -0.029131536768021996
+    },
+    {
+      "lag": 153,
+      "global_acf": -0.0586829971795042,
+      "local_acf": -0.058716077496282014
+    },
+    {
+      "lag": 154,
+      "global_acf": 0.20196871821783946,
+      "local_acf": 0.20194375561484443
+    },
+    {
+      "lag": 155,
+      "global_acf": -0.24598298866905727,
+      "local_acf": -0.24601134651007323
+    },
+    {
+      "lag": 156,
+      "global_acf": 0.05247180006013973,
+      "local_acf": 0.05244314902010754
+    },
+    {
+      "lag": 157,
+      "global_acf": -0.008720704695318843,
+      "local_acf": -0.008751190328795972
+    },
+    {
+      "lag": 158,
+      "global_acf": -0.1468830900666111,
+      "local_acf": -0.14692459446481376
+    },
+    {
+      "lag": 159,
+      "global_acf": 0.034770007296471415,
+      "local_acf": 0.034719549058651655
+    },
+    {
+      "lag": 160,
+      "global_acf": 0.8427132251468337,
+      "local_acf": 0.8426677150057198
+    },
+    {
+      "lag": 161,
+      "global_acf": 0.04474295948206538,
+      "local_acf": 0.044698002157505856
+    },
+    {
+      "lag": 162,
+      "global_acf": -0.14817191513920885,
+      "local_acf": -0.1482110347594346
+    },
+    {
+      "lag": 163,
+      "global_acf": -0.004565988648141916,
+      "local_acf": -0.004605824888720825
+    },
+    {
+      "lag": 164,
+      "global_acf": 0.07304914382097674,
+      "local_acf": 0.07300823990107248
+    },
+    {
+      "lag": 165,
+      "global_acf": -0.23741597378357743,
+      "local_acf": -0.2374604714742113
+    },
+    {
+      "lag": 166,
+      "global_acf": 0.19451519468905143,
+      "local_acf": 0.19447203604646876
+    },
+    {
+      "lag": 167,
+      "global_acf": -0.05865845409652525,
+      "local_acf": -0.05869626099573765
+    },
+    {
+      "lag": 168,
+      "global_acf": -0.024902025840346606,
+      "local_acf": -0.024932589769054835
+    },
+    {
+      "lag": 169,
+      "global_acf": -0.20361829529285763,
+      "local_acf": -0.203660156965429
+    },
+    {
+      "lag": 170,
+      "global_acf": 0.07499816564844368,
+      "local_acf": 0.07495650134844561
+    },
+    {
+      "lag": 171,
+      "global_acf": -0.12120494161018464,
+      "local_acf": -0.12124946813654512
+    },
+    {
+      "lag": 172,
+      "global_acf": -0.03623927335717674,
+      "local_acf": -0.03629342798954034
+    },
+    {
+      "lag": 173,
+      "global_acf": -0.0987426241353476,
+      "local_acf": -0.09879888115054888
+    },
+    {
+      "lag": 174,
+      "global_acf": 0.30939738585889204,
+      "local_acf": 0.30934312238075523
+    },
+    {
+      "lag": 175,
+      "global_acf": -0.10943692409632222,
+      "local_acf": -0.10949644637474959
+    },
+    {
+      "lag": 176,
+      "global_acf": -0.059921776614649966,
+      "local_acf": -0.05997376650109067
+    },
+    {
+      "lag": 177,
+      "global_acf": -0.047368605894093606,
+      "local_acf": -0.04741342340425797
+    },
+    {
+      "lag": 178,
+      "global_acf": 0.12341881352125335,
+      "local_acf": 0.12338205356698917
+    },
+    {
+      "lag": 179,
+      "global_acf": -0.17105637049301595,
+      "local_acf": -0.17108762168115593
+    },
+    {
+      "lag": 180,
+      "global_acf": 0.18968675814679054,
+      "local_acf": 0.18965568194336205
+    }
+  ],
+  "blocks": [
+    {
+      "block": 1,
+      "start_coordinate": -284990,
+      "end_coordinate": -249365,
+      "positions": 35626,
+      "density": 0.5936394767866165,
+      "acf_at_160": 0.9975433778798822,
+      "peak_lag_1_256": 160,
+      "peak_value": 0.9975433778798822
+    },
+    {
+      "block": 2,
+      "start_coordinate": -249364,
+      "end_coordinate": -213739,
+      "positions": 35626,
+      "density": 0.5937517543367203,
+      "acf_at_160": 1.000000032811367,
+      "peak_lag_1_256": 160,
+      "peak_value": 1.000000032811367
+    },
+    {
+      "block": 3,
+      "start_coordinate": -213738,
+      "end_coordinate": -178113,
+      "positions": 35626,
+      "density": 0.5937798237242463,
+      "acf_at_160": 1.0000005578054094,
+      "peak_lag_1_256": 160,
+      "peak_value": 1.0000005578054094
+    },
+    {
+      "block": 4,
+      "start_coordinate": -178112,
+      "end_coordinate": -142486,
+      "positions": 35627,
+      "density": 0.5937070199567743,
+      "acf_at_160": 0.9999991961946857,
+      "peak_lag_1_256": 160,
+      "peak_value": 0.9999991961946857
+    },
+    {
+      "block": 5,
+      "start_coordinate": -142485,
+      "end_coordinate": -106860,
+      "positions": 35626,
+      "density": 0.5937517543367203,
+      "acf_at_160": 1.000000032811367,
+      "peak_lag_1_256": 160,
+      "peak_value": 1.000000032811367
+    },
+    {
+      "block": 6,
+      "start_coordinate": -106859,
+      "end_coordinate": -71234,
+      "positions": 35626,
+      "density": 0.5938078931117723,
+      "acf_at_160": 1.000001082822373,
+      "peak_lag_1_256": 160,
+      "peak_value": 1.000001082822373
+    },
+    {
+      "block": 7,
+      "start_coordinate": -71233,
+      "end_coordinate": -35608,
+      "positions": 35626,
+      "density": 0.5916465502722731,
+      "acf_at_160": 0.8748530313170452,
+      "peak_lag_1_256": 160,
+      "peak_value": 0.8748530313170452
+    },
+    {
+      "block": 8,
+      "start_coordinate": -35607,
+      "end_coordinate": 19,
+      "positions": 35627,
+      "density": 0.5732450108064109,
+      "acf_at_160": -0.11753681306111226,
+      "peak_lag_1_256": 14,
+      "peak_value": 0.930789570246889
+    }
+  ],
+  "null_model": {
+    "replicates": 199,
+    "seed": 20261119,
+    "null_type": "uniform random occupancy preserving active cell count",
+    "observed_max_acf": 0.8427132251468337,
+    "observed_max_lag": 160,
+    "observed_acf_at_160": 0.8427132251468337,
+    "null_peak_mean": 0.005253368337819966,
+    "null_peak_sd": 0.000730022001608148,
+    "null_peak_95_percentile": 0.006624882063820307,
+    "empirical_p_global_max": 0.005,
+    "null_acf_160_mean": 1.865531845849045e-05,
+    "null_acf_160_sd": 0.001774125283995929,
+    "empirical_p_lag_160": 0.005
+  },
+  "snapshot_integrity_verified": true,
+  "limitations": [
+    "Only one historical snapshot was analyzed.",
+    "Random controls preserve density and active-cell count, not component or gap distributions.",
+    "199 replicas provide coarse empirical p-value resolution.",
+    "Spatial blocks are descriptive and are not independent experiments."
+  ]
+}

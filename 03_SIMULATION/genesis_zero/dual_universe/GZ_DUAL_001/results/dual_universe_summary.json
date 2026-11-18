@@ -1,0 +1,88 @@
+{
+  "experiment": "GZ-DUAL-001",
+  "status": "COMPLETED",
+  "parallel_processes": true,
+  "process_ids": {
+    "A": 10800,
+    "B": 29008
+  },
+  "elapsed_seconds": 0.7094478000071831,
+  "cycles_per_universe": 1000,
+  "observations_per_universe": 1001,
+  "initial_state_identical": true,
+  "initial_state_sha256": "5d64fafdfd1409ce86b579b905f21629df15c8eb01568afae9f1a9742d11fecd",
+  "initial_state_unchanged_after_run": true,
+  "universe_A": {
+    "universe": "A",
+    "seed": 20261102,
+    "steps": 1000,
+    "initial_state_sha256": "a3905f0ad3f219de077f049d9613d4bffc61a72717514f49e1b3d3e410bb5982",
+    "final_state_sha256": "82cc2605eb26f98f2f02b9be0a574081999e0a373dc1fd04b425b7b67f252499",
+    "introduction": {
+      "applied": false,
+      "after_cycle": null,
+      "total_increment": null
+    },
+    "initial": {
+      "step": 0,
+      "minimum": 0.3849287850967875,
+      "maximum": 0.6605973570520527,
+      "mean": 0.5086634381104954,
+      "std": 0.03234372615637103,
+      "variance": 0.0010461166216783196,
+      "total": 8333.941770002357
+    },
+    "final": {
+      "step": 1000,
+      "minimum": 0.3849287850967875,
+      "maximum": 0.6605973570520527,
+      "mean": 0.5086634381104954,
+      "std": 0.03234372615637103,
+      "variance": 0.0010461166216783196,
+      "total": 8333.941770002357
+    },
+    "elapsed_seconds": 0.42346010002074763
+  },
+  "universe_B": {
+    "universe": "B",
+    "seed": 20261103,
+    "steps": 1000,
+    "initial_state_sha256": "a3905f0ad3f219de077f049d9613d4bffc61a72717514f49e1b3d3e410bb5982",
+    "final_state_sha256": "6dd061a3d6ac7be4f8ba492a3881376136558d4b318e73ba314389376cace987",
+    "introduction": {
+      "applied": true,
+      "after_cycle": 100,
+      "total_increment": 39.269908169872416
+    },
+    "initial": {
+      "step": 0,
+      "minimum": 0.3824542695819618,
+      "maximum": 0.6544096171938574,
+      "mean": 0.5082275616147569,
+      "std": 0.03431461316772457,
+      "variance": 0.0011774926768505765,
+      "total": 8326.800369496177
+    },
+    "final": {
+      "step": 1000,
+      "minimum": 0.3824542695819618,
+      "maximum": 0.6544096171938574,
+      "mean": 0.5082275616147569,
+      "std": 0.03431461316772457,
+      "variance": 0.0011774926768505765,
+      "total": 8326.800369496177
+    },
+    "elapsed_seconds": 0.4247392000106629
+  },
+  "final_difference": {
+    "mean": -0.00043587649573856757,
+    "standard_deviation": 0.04424838461290862,
+    "maximum_absolute_difference": 0.2018825697771786
+  },
+  "scientific_limitations": [
+    "This is an abstract computational scalar-field model.",
+    "The perturbation is a mathematical field increment, not physical energy.",
+    "Independent noise streams mean differences cannot be attributed solely to the introduction.",
+    "This experiment does not test or demonstrate intelligence emergence."
+  ]
+}

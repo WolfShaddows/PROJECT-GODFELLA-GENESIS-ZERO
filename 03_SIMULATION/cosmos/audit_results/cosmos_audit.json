@@ -1,0 +1,64 @@
+{
+    "audit": "COSMOS ENGINE 0.2",
+    "audit_type": "numerical_consistency",
+    "checks_passed": 9,
+    "checks_failed": 0,
+    "age_gyr": 13.790811218995213,
+    "maximum_fraction_error": 2.220446049250313e-16,
+    "integration_difference_gyr": 9.592326932761353e-14,
+    "results": [
+        {
+            "check": "Present density normalization",
+            "status": "PASS",
+            "detail": "Sum = 1.000000000000000"
+        },
+        {
+            "check": "Hubble normalization at a=1",
+            "status": "PASS",
+            "detail": "H(1) = 67.400000000000; H0 = 67.400000000000"
+        },
+        {
+            "check": "Positive E(a)^2 over sampled interval",
+            "status": "PASS",
+            "detail": "Minimum E\u00b2 = 1.00000000e+00"
+        },
+        {
+            "check": "Density fractions sum to unity",
+            "status": "PASS",
+            "detail": "Maximum absolute error = 2.220e-16"
+        },
+        {
+            "check": "Expansion rate decreases toward present",
+            "status": "PASS",
+            "detail": "H(1e-4) = 7.429302e+07; H(1) = 67.400000"
+        },
+        {
+            "check": "Cosmic age increases with scale factor",
+            "status": "PASS",
+            "detail": "Age at a=1e-4 = 6.89687598e-06 Gyr; age at a=1 = 13.790811218995 Gyr"
+        },
+        {
+            "check": "Integration tolerance stability",
+            "status": "PASS",
+            "detail": "1e-8 = 13.790811218995 Gyr; 1e-12 = 13.790811218995 Gyr; difference = 9.592e-14"
+        },
+        {
+            "check": "Engine age agrees with independent integration",
+            "status": "PASS",
+            "detail": "Engine = 13.790811218995 Gyr; independent = 13.790811218995 Gyr"
+        },
+        {
+            "check": "Present-day fractions match model parameters",
+            "status": "PASS",
+            "detail": "{\n  \"radiation\": 9e-05,\n  \"matter\": 0.315,\n  \"curvature\": 0.0,\n  \"dark_energy\": 0.68491\n}"
+        }
+    ],
+    "scientific_scope": [
+        "Homogeneous flat Lambda-CDM background",
+        "No primordial perturbations",
+        "No structure formation",
+        "No baryonic gas dynamics",
+        "No chemistry",
+        "No simulation of the absolute origin of the universe"
+    ]
+}

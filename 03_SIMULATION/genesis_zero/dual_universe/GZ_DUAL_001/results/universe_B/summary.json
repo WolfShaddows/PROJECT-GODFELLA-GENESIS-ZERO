@@ -1,0 +1,31 @@
+{
+  "universe": "B",
+  "seed": 20261103,
+  "steps": 1000,
+  "initial_state_sha256": "a3905f0ad3f219de077f049d9613d4bffc61a72717514f49e1b3d3e410bb5982",
+  "final_state_sha256": "6dd061a3d6ac7be4f8ba492a3881376136558d4b318e73ba314389376cace987",
+  "introduction": {
+    "applied": true,
+    "after_cycle": 100,
+    "total_increment": 39.269908169872416
+  },
+  "initial": {
+    "step": 0,
+    "minimum": 0.3824542695819618,
+    "maximum": 0.6544096171938574,
+    "mean": 0.5082275616147569,
+    "std": 0.03431461316772457,
+    "variance": 0.0011774926768505765,
+    "total": 8326.800369496177
+  },
+  "final": {
+    "step": 1000,
+    "minimum": 0.3824542695819618,
+    "maximum": 0.6544096171938574,
+    "mean": 0.5082275616147569,
+    "std": 0.03431461316772457,
+    "variance": 0.0011774926768505765,
+    "total": 8326.800369496177
+  },
+  "elapsed_seconds": 0.4247392000106629
+}

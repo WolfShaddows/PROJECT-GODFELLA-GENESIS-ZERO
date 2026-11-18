@@ -1,0 +1,368 @@
+{
+  "experiment": "018B_SPATIAL_SEQUENCES_AND_AUTOCORRELATION_R1",
+  "rule": 110,
+  "generation": 284970,
+  "active_cells": 168417,
+  "spatial_span": 285010,
+  "component_count": 62181,
+  "gap_count": 62180,
+  "component_length_sum": 168417,
+  "gap_length_sum": 116593,
+  "occupancy_density": 0.5909161082067296,
+  "component_length_frequencies": {
+    "1": 18134,
+    "2": 18133,
+    "3": 7779,
+    "4": 3,
+    "5": 18129,
+    "6": 2,
+    "11": 1
+  },
+  "gap_length_frequencies": {
+    "1": 25909,
+    "2": 18136,
+    "3": 18131,
+    "4": 2,
+    "5": 1,
+    "6": 1
+  },
+  "most_common_component_transitions": [
+    {
+      "from": 1,
+      "to": 2,
+      "count": 18130
+    },
+    {
+      "from": 2,
+      "to": 5,
+      "count": 13465
+    },
+    {
+      "from": 5,
+      "to": 1,
+      "count": 10388
+    },
+    {
+      "from": 3,
+      "to": 1,
+      "count": 4664
+    },
+    {
+      "from": 5,
+      "to": 3,
+      "count": 4661
+    },
+    {
+      "from": 2,
+      "to": 1,
+      "count": 3082
+    },
+    {
+      "from": 5,
+      "to": 5,
+      "count": 3079
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "count": 1583
+    },
+    {
+      "from": 3,
+      "to": 5,
+      "count": 1582
+    },
+    {
+      "from": 3,
+      "to": 3,
+      "count": 1533
+    },
+    {
+      "from": 4,
+      "to": 3,
+      "count": 2
+    },
+    {
+      "from": 1,
+      "to": 5,
+      "count": 2
+    },
+    {
+      "from": 2,
+      "to": 6,
+      "count": 2
+    },
+    {
+      "from": 1,
+      "to": 4,
+      "count": 1
+    },
+    {
+      "from": 1,
+      "to": 11,
+      "count": 1
+    },
+    {
+      "from": 11,
+      "to": 4,
+      "count": 1
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "count": 1
+    },
+    {
+      "from": 5,
+      "to": 2,
+      "count": 1
+    },
+    {
+      "from": 6,
+      "to": 4,
+      "count": 1
+    },
+    {
+      "from": 6,
+      "to": 2,
+      "count": 1
+    }
+  ],
+  "most_common_gap_transitions": [
+    {
+      "from": 2,
+      "to": 1,
+      "count": 18128
+    },
+    {
+      "from": 1,
+      "to": 3,
+      "count": 15047
+    },
+    {
+      "from": 3,
+      "to": 2,
+      "count": 13467
+    },
+    {
+      "from": 1,
+      "to": 1,
+      "count": 6195
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "count": 4665
+    },
+    {
+      "from": 3,
+      "to": 3,
+      "count": 3080
+    },
+    {
+      "from": 3,
+      "to": 1,
+      "count": 1584
+    },
+    {
+      "from": 2,
+      "to": 2,
+      "count": 3
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "count": 3
+    },
+    {
+      "from": 5,
+      "to": 3,
+      "count": 1
+    },
+    {
+      "from": 2,
+      "to": 4,
+      "count": 1
+    },
+    {
+      "from": 4,
+      "to": 2,
+      "count": 1
+    },
+    {
+      "from": 1,
+      "to": 4,
+      "count": 1
+    },
+    {
+      "from": 4,
+      "to": 1,
+      "count": 1
+    },
+    {
+      "from": 1,
+      "to": 6,
+      "count": 1
+    },
+    {
+      "from": 6,
+      "to": 1,
+      "count": 1
+    }
+  ],
+  "strongest_positive_correlations": [
+    {
+      "lag": 160,
+      "correlation": 0.8427132251468337,
+      "joint_active_fraction": 0.5528945058802879
+    },
+    {
+      "lag": 102,
+      "correlation": 0.5705262536446225,
+      "joint_active_fraction": 0.4870975893972791
+    },
+    {
+      "lag": 218,
+      "correlation": 0.5570828613623012,
+      "joint_active_fraction": 0.48384786089496895
+    },
+    {
+      "lag": 58,
+      "correlation": 0.5560896410578815,
+      "joint_active_fraction": 0.4836077655184031
+    },
+    {
+      "lag": 14,
+      "correlation": 0.45507431748146243,
+      "joint_active_fraction": 0.4591889008968547
+    },
+    {
+      "lag": 116,
+      "correlation": 0.391138646734381,
+      "joint_active_fraction": 0.44373345876010023
+    },
+    {
+      "lag": 204,
+      "correlation": 0.38104455780015734,
+      "joint_active_fraction": 0.4412933716284067
+    },
+    {
+      "lag": 44,
+      "correlation": 0.3757371412279822,
+      "joint_active_fraction": 0.4400103872040875
+    },
+    {
+      "lag": 174,
+      "correlation": 0.30939738585889204,
+      "joint_active_fraction": 0.4239737954472047
+    },
+    {
+      "lag": 146,
+      "correlation": 0.3076566241823399,
+      "joint_active_fraction": 0.4235529937092788
+    },
+    {
+      "lag": 248,
+      "correlation": 0.2984493655150324,
+      "joint_active_fraction": 0.42132728383702883
+    },
+    {
+      "lag": 126,
+      "correlation": 0.2773736935912999,
+      "joint_active_fraction": 0.4162325718538072
+    },
+    {
+      "lag": 224,
+      "correlation": 0.2675220920427192,
+      "joint_active_fraction": 0.413851102231149
+    },
+    {
+      "lag": 96,
+      "correlation": 0.25590698278003027,
+      "joint_active_fraction": 0.4110433323739795
+    },
+    {
+      "lag": 194,
+      "correlation": 0.2487360417108023,
+      "joint_active_fraction": 0.40930987023200943
+    }
+  ],
+  "strongest_negative_correlations": [
+    {
+      "lag": 107,
+      "correlation": -0.39363488367075405,
+      "joint_active_fraction": 0.25402680912450903
+    },
+    {
+      "lag": 213,
+      "correlation": -0.3832212757381318,
+      "joint_active_fraction": 0.2565441349452417
+    },
+    {
+      "lag": 53,
+      "correlation": -0.3483081249191003,
+      "joint_active_fraction": 0.2649838396670375
+    },
+    {
+      "lag": 5,
+      "correlation": -0.3165603093336179,
+      "joint_active_fraction": 0.272658374414484
+    },
+    {
+      "lag": 49,
+      "correlation": -0.28455040599211895,
+      "joint_active_fraction": 0.2803962647520187
+    },
+    {
+      "lag": 9,
+      "correlation": -0.2702563177724979,
+      "joint_active_fraction": 0.2838516356082961
+    },
+    {
+      "lag": 19,
+      "correlation": -0.24697587232434148,
+      "joint_active_fraction": 0.2894793168907088
+    },
+    {
+      "lag": 155,
+      "correlation": -0.24598298866905727,
+      "joint_active_fraction": 0.28971933088764457
+    },
+    {
+      "lag": 165,
+      "correlation": -0.23741597378357743,
+      "joint_active_fraction": 0.29179027190226264
+    },
+    {
+      "lag": 111,
+      "correlation": -0.2369332759752534,
+      "joint_active_fraction": 0.2919069565003738
+    },
+    {
+      "lag": 209,
+      "correlation": -0.23618367887021344,
+      "joint_active_fraction": 0.29208815980280967
+    },
+    {
+      "lag": 93,
+      "correlation": -0.2187298606854006,
+      "joint_active_fraction": 0.29630734564803085
+    },
+    {
+      "lag": 121,
+      "correlation": -0.21283016914582376,
+      "joint_active_fraction": 0.2977335032240627
+    },
+    {
+      "lag": 199,
+      "correlation": -0.20681373085197627,
+      "joint_active_fraction": 0.2991878824904937
+    },
+    {
+      "lag": 253,
+      "correlation": -0.20681146246426607,
+      "joint_active_fraction": 0.2991884308375211
+    }
+  ],
+  "snapshot_sha256": "9179998e116c96e81ecedfc5919c1c73d8e25e92a2b2db4fcf0bfad82081a5fc"
+}

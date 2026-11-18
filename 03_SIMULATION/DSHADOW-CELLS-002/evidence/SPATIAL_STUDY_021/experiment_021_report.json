@@ -1,0 +1,147 @@
+{
+  "experiment": "021_PERIODICITY_BOUNDARY_MAPPING",
+  "rule": 110,
+  "generation": 284970,
+  "active_cells": 168417,
+  "span": 285010,
+  "density": 0.5909161082067296,
+  "target_lag": 160,
+  "compared_pairs": 284850,
+  "matching_pairs": 263183,
+  "mismatching_pairs": 21667,
+  "match_rate_160": 0.9239354045989117,
+  "total_equal_segments": 8786,
+  "segments_at_least_1000": 1,
+  "longest_equal_segment": 245067,
+  "total_ruptures": 21667,
+  "first_rupture": {
+    "coordinate": -284985,
+    "paired_coordinate": -284825,
+    "left_state": 0,
+    "right_state": 1
+  },
+  "last_rupture": {
+    "coordinate": -143,
+    "paired_coordinate": 17,
+    "left_state": 1,
+    "right_state": 0
+  },
+  "longest_segments": [
+    {
+      "start_coordinate": -284870,
+      "end_coordinate": -39804,
+      "paired_start_coordinate": -284710,
+      "paired_end_coordinate": -39644,
+      "length": 245067
+    }
+  ],
+  "best_periods_1_300": [
+    {
+      "lag": 160,
+      "match_rate": 0.9239354045989117,
+      "pearson": 0.8426677150057096
+    },
+    {
+      "lag": 262,
+      "match_rate": 0.8261515445235788,
+      "pearson": 0.640410963340917
+    },
+    {
+      "lag": 102,
+      "match_rate": 0.7923540230530557,
+      "pearson": 0.5705063196290242
+    },
+    {
+      "lag": 218,
+      "match_rate": 0.7858437034748167,
+      "pearson": 0.5570386043208201
+    },
+    {
+      "lag": 58,
+      "match_rate": 0.7853813975687133,
+      "pearson": 0.5560853557815115
+    },
+    {
+      "lag": 276,
+      "match_rate": 0.7385314012376464,
+      "pearson": 0.45917661962964557
+    },
+    {
+      "lag": 14,
+      "match_rate": 0.7365296355036562,
+      "pearson": 0.4550380577365305
+    },
+    {
+      "lag": 116,
+      "match_rate": 0.7056238460620441,
+      "pearson": 0.39111370840263293
+    },
+    {
+      "lag": 204,
+      "match_rate": 0.7007296194602641,
+      "pearson": 0.38098724060011707
+    },
+    {
+      "lag": 44,
+      "match_rate": 0.6981885558277128,
+      "pearson": 0.37573713623700417
+    },
+    {
+      "lag": 174,
+      "match_rate": 0.666092067014001,
+      "pearson": 0.3093431223807533
+    },
+    {
+      "lag": 146,
+      "match_rate": 0.6652472758930578,
+      "pearson": 0.30759492187666343
+    },
+    {
+      "lag": 248,
+      "match_rate": 0.6608009495648998,
+      "pearson": 0.29839945091227926
+    },
+    {
+      "lag": 126,
+      "match_rate": 0.6506191993934374,
+      "pearson": 0.2773415678626433
+    },
+    {
+      "lag": 224,
+      "match_rate": 0.6458604004410329,
+      "pearson": 0.26749961983713716
+    },
+    {
+      "lag": 96,
+      "match_rate": 0.6402493383968496,
+      "pearson": 0.2558949833773185
+    },
+    {
+      "lag": 194,
+      "match_rate": 0.6367725127801809,
+      "pearson": 0.24870075080313134
+    },
+    {
+      "lag": 88,
+      "match_rate": 0.6316605948294621,
+      "pearson": 0.23812955540193032
+    },
+    {
+      "lag": 72,
+      "match_rate": 0.6252132042760179,
+      "pearson": 0.22479577528297637
+    },
+    {
+      "lag": 238,
+      "match_rate": 0.6248296883120531,
+      "pearson": 0.22399925231614762
+    }
+  ],
+  "literal_block_comparisons": {
+    "block_size": 160,
+    "complete_blocks": 1781,
+    "identical_blocks": 0,
+    "total_compared_blocks": 1780
+  },
+  "snapshot_sha256": "9179998e116c96e81ecedfc5919c1c73d8e25e92a2b2db4fcf0bfad82081a5fc"
+}

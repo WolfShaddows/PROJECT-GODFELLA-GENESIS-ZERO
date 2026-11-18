@@ -1,0 +1,45 @@
+{
+  "experiment": "024_PERIODICITY_BOUNDARY_ANALYSIS",
+  "rule": 110,
+  "initial_generation": 284970,
+  "period": 160,
+  "simulated_generations": 200,
+  "initial_periodic_region": {
+    "start": -284870,
+    "end_lower": -39804,
+    "length": 245067
+  },
+  "initial_mismatches": 0,
+  "total_mismatch_records": 1764246,
+  "all_safe_regions_exact": true,
+  "first_safe_region_failure": null,
+  "initial_summary": {
+    "generation": 0,
+    "total_comparisons": 284850,
+    "total_mismatches": 21667,
+    "mismatch_runs": 8785,
+    "safe_region_start": -284870,
+    "safe_region_end": -39804,
+    "safe_region_length": 245067,
+    "safe_region_mismatches": 0,
+    "nearest_left_mismatch_end": -284871,
+    "nearest_right_mismatch_start": -39803,
+    "safe_region_exact": true
+  },
+  "final_summary": {
+    "generation": 200,
+    "total_comparisons": 284850,
+    "total_mismatches": 21687,
+    "mismatch_runs": 8774,
+    "safe_region_start": -284670,
+    "safe_region_end": -40004,
+    "safe_region_length": 244667,
+    "safe_region_mismatches": 0,
+    "nearest_left_mismatch_end": -284903,
+    "nearest_right_mismatch_start": -39832,
+    "safe_region_exact": true
+  },
+  "snapshot_sha256_before": "9179998e116c96e81ecedfc5919c1c73d8e25e92a2b2db4fcf0bfad82081a5fc",
+  "snapshot_sha256_after": "9179998e116c96e81ecedfc5919c1c73d8e25e92a2b2db4fcf0bfad82081a5fc",
+  "snapshot_integrity": true
+}

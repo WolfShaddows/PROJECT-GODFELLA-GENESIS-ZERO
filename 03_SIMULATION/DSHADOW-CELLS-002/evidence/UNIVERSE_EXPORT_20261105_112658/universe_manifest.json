@@ -1,0 +1,21 @@
+{
+  "export_timestamp": "2026-11-05T11:27:08.5275928-03:00",
+  "experiment": "DSHADOW-CELLS-002",
+  "run_id": "e924e852",
+  "rule": 110,
+  "seed": 20261105,
+  "snapshot_generation": 284940,
+  "snapshot_saved_at": 1793888819.2623444,
+  "total_active_cells": 168407,
+  "unique_active_cells": 168407,
+  "min_x": -284960.0,
+  "max_x": 19.0,
+  "spatial_span": 284980,
+  "snapshot_sha256": "9179998E116C96E81ECEDFC5919C1C73D8E25E92A2B2DB4FCF0BFAD82081A5FC",
+  "live_generation_before": 284940,
+  "live_generation_after": 285000,
+  "live_active_cells_after": 168441,
+  "engine_running": true,
+  "source_file": "data/raw/latest_state.json",
+  "completeness": "All active coordinates contained in the persisted snapshot"
+}

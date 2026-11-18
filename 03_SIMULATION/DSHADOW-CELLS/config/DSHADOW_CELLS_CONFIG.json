@@ -1,0 +1,9 @@
+{
+  "experiment_id":"DSHADOW-CELLS-001",
+  "name":"OPEN-ENDED UNIVERSE",
+  "substrate":{"dimension":1,"topology":"unbounded_integer_lattice","states":[0,1],"update":"synchronous","model":"elementary_cellular_automaton","rule":110,"quiescent_background":0},
+  "initial_conditions":{"seed":20261105,"pattern":"finite_random_seed","span":41,"density":0.28},
+  "execution":{"target_generations":null,"checkpoint_interval":5000,"snapshot_interval":10,"batch_generations":100},
+  "constraints":{"predefined_organisms":false,"artificial_reproduction":false,"selection":false,"ai_inside_substrate":false,"observer_read_only":true},
+  "historical_experiments":{"GZ-LIFE-001":[67,109,137],"GZ-LIFE-002":[67,109,137]}
+}

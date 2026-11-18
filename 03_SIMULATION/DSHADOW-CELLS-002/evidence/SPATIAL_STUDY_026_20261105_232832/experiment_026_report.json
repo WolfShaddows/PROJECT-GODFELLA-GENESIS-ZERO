@@ -1,0 +1,37 @@
+{
+  "experiment": "026_FUNDAMENTAL_PERIOD_VALIDATION",
+  "rule": 110,
+  "old_generation": 284970,
+  "new_generation": 511660,
+  "source_segment": {
+    "start": -511557,
+    "end": -71329,
+    "length": 440229
+  },
+  "complete_region": {
+    "start": -511557,
+    "end": -71169,
+    "length": 440389
+  },
+  "initial_mismatches": 0,
+  "tested_periods": 160,
+  "exact_periods": [
+    160
+  ],
+  "fundamental_period": 160,
+  "complete_blocks": 2752,
+  "different_blocks": 0,
+  "all_blocks_identical": true,
+  "old_aligned_anchor": -284800,
+  "new_aligned_anchor": -511520,
+  "direct_phase_matches": 96,
+  "direct_phase_match_rate": 0.6,
+  "best_phase_comparison": {
+    "shift": 140,
+    "matches": 160,
+    "match_rate": 1.0
+  },
+  "old_snapshot_sha256": "9179998e116c96e81ecedfc5919c1c73d8e25e92a2b2db4fcf0bfad82081a5fc",
+  "new_snapshot_sha256": "65a7c8c82c35dc9d9a0cddde02b93eb4539a66624920949f1826c6094d510b2c",
+  "snapshot_integrity": true
+}

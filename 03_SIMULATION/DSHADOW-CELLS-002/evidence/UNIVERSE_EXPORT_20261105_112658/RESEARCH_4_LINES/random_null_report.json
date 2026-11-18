@@ -1,0 +1,19 @@
+{
+  "experiment": "DSHADOW-CELLS-002",
+  "snapshot_generation": 284970,
+  "active_cells": 168417,
+  "spatial_span": 285010,
+  "density": 0.5909161082067296,
+  "replicates": 100,
+  "random_seed": 20261105,
+  "tested_lags": 128,
+  "method": "Fixed-population random occupancy with linear FFT autocorrelation",
+  "multiple_testing_correction": "Bonferroni",
+  "significant_lags_after_correction": [],
+  "limitations": [
+    "The null model preserves population and interval, but not Rule 110 dynamics.",
+    "100 random replicates provide limited empirical p-value resolution.",
+    "Bonferroni correction is conservative.",
+    "This is a single-snapshot spatial comparison, not a temporal causal test."
+  ]
+}

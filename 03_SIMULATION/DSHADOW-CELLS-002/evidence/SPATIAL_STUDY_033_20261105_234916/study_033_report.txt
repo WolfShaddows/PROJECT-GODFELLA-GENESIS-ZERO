@@ -1,0 +1,20 @@
+STUDY 033 — TEMPORAL DYNAMICS
+Initial generation: 511660
+Simulated generations: 300
+Initial active cells: 302381
+Final active cells: 302558
+Initial density: 59.019011%
+Final density: 59.054144%
+Total recurrence events: 1010
+Distinct motif/displacement combinations: 4
+
+TOP CANDIDATE MOTIFS:
+000000011 | speed=-1 | events=323 | generations=300 | candidate=True
+000000001 | speed=-1 | events=322 | generations=300 | candidate=True
+100000000 | speed=0 | events=322 | generations=300 | candidate=True
+110000000 | speed=0 | events=43 | generations=43 | candidate=True
+
+Source snapshot unchanged: True
+SHA256: 65a7c8c82c35dc9d9a0cddde02b93eb4539a66624920949f1826c6094d510b2c
+
+IMPORTANT: motif recurrence is not proof of a mobile particle.

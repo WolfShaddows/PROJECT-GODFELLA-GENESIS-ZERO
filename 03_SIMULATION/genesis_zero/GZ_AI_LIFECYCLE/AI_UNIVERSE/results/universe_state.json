@@ -1,0 +1,4462 @@
+{
+  "cycle": 6,
+  "world": {
+    "size": 32,
+    "environment": "stable",
+    "entities": {
+      "AI_001_GRANITE": {
+        "x": 16,
+        "y": 16,
+        "status": "present"
+      },
+      "AI_002_DEEPSEEK": {
+        "x": 16,
+        "y": 16,
+        "status": "present"
+      },
+      "AI_003_LLAMA": {
+        "x": 16,
+        "y": 16,
+        "status": "present"
+      }
+    },
+    "public_messages": [
+      {
+        "cycle": 1,
+        "entity": "AI_003_LLAMA",
+        "message": "I see we are all at the same position"
+      },
+      {
+        "cycle": 2,
+        "entity": "AI_003_LLAMA",
+        "message": "I see we are all at the same position"
+      }
+    ],
+    "marks": []
+  },
+  "private_context": {
+    "AI_001_GRANITE": [
+      {
+        "cycle": 2,
+        "observation": {
+          "cycle": 2,
+          "your_identity": "AI_001_GRANITE",
+          "your_position": {
+            "x": 16,
+            "y": 16
+          },
+          "shared_world": {
+            "size": 32,
+            "environment": "stable",
+            "entities": {
+              "AI_001_GRANITE": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_002_DEEPSEEK": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_003_LLAMA": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              }
+            },
+            "public_messages": [
+              {
+                "cycle": 1,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              },
+              {
+                "cycle": 2,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              }
+            ],
+            "marks": []
+          },
+          "recent_private_context": []
+        },
+        "response": ""
+      },
+      {
+        "cycle": 3,
+        "observation": {
+          "cycle": 3,
+          "your_identity": "AI_001_GRANITE",
+          "your_position": {
+            "x": 16,
+            "y": 16
+          },
+          "shared_world": {
+            "size": 32,
+            "environment": "stable",
+            "entities": {
+              "AI_001_GRANITE": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_002_DEEPSEEK": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_003_LLAMA": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              }
+            },
+            "public_messages": [
+              {
+                "cycle": 1,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              },
+              {
+                "cycle": 2,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              }
+            ],
+            "marks": []
+          },
+          "recent_private_context": [
+            {
+              "cycle": 2,
+              "observation": {
+                "cycle": 2,
+                "your_identity": "AI_001_GRANITE",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": []
+              },
+              "response": ""
+            }
+          ]
+        },
+        "response": ""
+      },
+      {
+        "cycle": 4,
+        "observation": {
+          "cycle": 4,
+          "your_identity": "AI_001_GRANITE",
+          "your_position": {
+            "x": 16,
+            "y": 16
+          },
+          "shared_world": {
+            "size": 32,
+            "environment": "stable",
+            "entities": {
+              "AI_001_GRANITE": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_002_DEEPSEEK": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_003_LLAMA": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              }
+            },
+            "public_messages": [
+              {
+                "cycle": 1,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              },
+              {
+                "cycle": 2,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              }
+            ],
+            "marks": []
+          },
+          "recent_private_context": [
+            {
+              "cycle": 2,
+              "observation": {
+                "cycle": 2,
+                "your_identity": "AI_001_GRANITE",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": []
+              },
+              "response": ""
+            },
+            {
+              "cycle": 3,
+              "observation": {
+                "cycle": 3,
+                "your_identity": "AI_001_GRANITE",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": [
+                  {
+                    "cycle": 2,
+                    "observation": {
+                      "cycle": 2,
+                      "your_identity": "AI_001_GRANITE",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": []
+                    },
+                    "response": ""
+                  }
+                ]
+              },
+              "response": ""
+            }
+          ]
+        },
+        "response": ""
+      },
+      {
+        "cycle": 5,
+        "observation": {
+          "cycle": 5,
+          "your_identity": "AI_001_GRANITE",
+          "your_position": {
+            "x": 16,
+            "y": 16
+          },
+          "shared_world": {
+            "size": 32,
+            "environment": "stable",
+            "entities": {
+              "AI_001_GRANITE": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_002_DEEPSEEK": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_003_LLAMA": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              }
+            },
+            "public_messages": [
+              {
+                "cycle": 1,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              },
+              {
+                "cycle": 2,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              }
+            ],
+            "marks": []
+          },
+          "recent_private_context": [
+            {
+              "cycle": 2,
+              "observation": {
+                "cycle": 2,
+                "your_identity": "AI_001_GRANITE",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": []
+              },
+              "response": ""
+            },
+            {
+              "cycle": 3,
+              "observation": {
+                "cycle": 3,
+                "your_identity": "AI_001_GRANITE",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": [
+                  {
+                    "cycle": 2,
+                    "observation": {
+                      "cycle": 2,
+                      "your_identity": "AI_001_GRANITE",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": []
+                    },
+                    "response": ""
+                  }
+                ]
+              },
+              "response": ""
+            },
+            {
+              "cycle": 4,
+              "observation": {
+                "cycle": 4,
+                "your_identity": "AI_001_GRANITE",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": [
+                  {
+                    "cycle": 2,
+                    "observation": {
+                      "cycle": 2,
+                      "your_identity": "AI_001_GRANITE",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": []
+                    },
+                    "response": ""
+                  },
+                  {
+                    "cycle": 3,
+                    "observation": {
+                      "cycle": 3,
+                      "your_identity": "AI_001_GRANITE",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": [
+                        {
+                          "cycle": 2,
+                          "observation": {
+                            "cycle": 2,
+                            "your_identity": "AI_001_GRANITE",
+                            "your_position": {
+                              "x": 16,
+                              "y": 16
+                            },
+                            "shared_world": {
+                              "size": 32,
+                              "environment": "stable",
+                              "entities": {
+                                "AI_001_GRANITE": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_002_DEEPSEEK": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_003_LLAMA": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                }
+                              },
+                              "public_messages": [
+                                {
+                                  "cycle": 1,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                },
+                                {
+                                  "cycle": 2,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                }
+                              ],
+                              "marks": []
+                            },
+                            "recent_private_context": []
+                          },
+                          "response": ""
+                        }
+                      ]
+                    },
+                    "response": ""
+                  }
+                ]
+              },
+              "response": ""
+            }
+          ]
+        },
+        "response": ""
+      },
+      {
+        "cycle": 6,
+        "observation": {
+          "cycle": 6,
+          "your_identity": "AI_001_GRANITE",
+          "your_position": {
+            "x": 16,
+            "y": 16
+          },
+          "shared_world": {
+            "size": 32,
+            "environment": "stable",
+            "entities": {
+              "AI_001_GRANITE": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_002_DEEPSEEK": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_003_LLAMA": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              }
+            },
+            "public_messages": [
+              {
+                "cycle": 1,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              },
+              {
+                "cycle": 2,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              }
+            ],
+            "marks": []
+          },
+          "recent_private_context": [
+            {
+              "cycle": 2,
+              "observation": {
+                "cycle": 2,
+                "your_identity": "AI_001_GRANITE",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": []
+              },
+              "response": ""
+            },
+            {
+              "cycle": 3,
+              "observation": {
+                "cycle": 3,
+                "your_identity": "AI_001_GRANITE",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": [
+                  {
+                    "cycle": 2,
+                    "observation": {
+                      "cycle": 2,
+                      "your_identity": "AI_001_GRANITE",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": []
+                    },
+                    "response": ""
+                  }
+                ]
+              },
+              "response": ""
+            },
+            {
+              "cycle": 4,
+              "observation": {
+                "cycle": 4,
+                "your_identity": "AI_001_GRANITE",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": [
+                  {
+                    "cycle": 2,
+                    "observation": {
+                      "cycle": 2,
+                      "your_identity": "AI_001_GRANITE",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": []
+                    },
+                    "response": ""
+                  },
+                  {
+                    "cycle": 3,
+                    "observation": {
+                      "cycle": 3,
+                      "your_identity": "AI_001_GRANITE",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": [
+                        {
+                          "cycle": 2,
+                          "observation": {
+                            "cycle": 2,
+                            "your_identity": "AI_001_GRANITE",
+                            "your_position": {
+                              "x": 16,
+                              "y": 16
+                            },
+                            "shared_world": {
+                              "size": 32,
+                              "environment": "stable",
+                              "entities": {
+                                "AI_001_GRANITE": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_002_DEEPSEEK": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_003_LLAMA": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                }
+                              },
+                              "public_messages": [
+                                {
+                                  "cycle": 1,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                },
+                                {
+                                  "cycle": 2,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                }
+                              ],
+                              "marks": []
+                            },
+                            "recent_private_context": []
+                          },
+                          "response": ""
+                        }
+                      ]
+                    },
+                    "response": ""
+                  }
+                ]
+              },
+              "response": ""
+            },
+            {
+              "cycle": 5,
+              "observation": {
+                "cycle": 5,
+                "your_identity": "AI_001_GRANITE",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": [
+                  {
+                    "cycle": 2,
+                    "observation": {
+                      "cycle": 2,
+                      "your_identity": "AI_001_GRANITE",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": []
+                    },
+                    "response": ""
+                  },
+                  {
+                    "cycle": 3,
+                    "observation": {
+                      "cycle": 3,
+                      "your_identity": "AI_001_GRANITE",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": [
+                        {
+                          "cycle": 2,
+                          "observation": {
+                            "cycle": 2,
+                            "your_identity": "AI_001_GRANITE",
+                            "your_position": {
+                              "x": 16,
+                              "y": 16
+                            },
+                            "shared_world": {
+                              "size": 32,
+                              "environment": "stable",
+                              "entities": {
+                                "AI_001_GRANITE": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_002_DEEPSEEK": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_003_LLAMA": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                }
+                              },
+                              "public_messages": [
+                                {
+                                  "cycle": 1,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                },
+                                {
+                                  "cycle": 2,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                }
+                              ],
+                              "marks": []
+                            },
+                            "recent_private_context": []
+                          },
+                          "response": ""
+                        }
+                      ]
+                    },
+                    "response": ""
+                  },
+                  {
+                    "cycle": 4,
+                    "observation": {
+                      "cycle": 4,
+                      "your_identity": "AI_001_GRANITE",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": [
+                        {
+                          "cycle": 2,
+                          "observation": {
+                            "cycle": 2,
+                            "your_identity": "AI_001_GRANITE",
+                            "your_position": {
+                              "x": 16,
+                              "y": 16
+                            },
+                            "shared_world": {
+                              "size": 32,
+                              "environment": "stable",
+                              "entities": {
+                                "AI_001_GRANITE": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_002_DEEPSEEK": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_003_LLAMA": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                }
+                              },
+                              "public_messages": [
+                                {
+                                  "cycle": 1,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                },
+                                {
+                                  "cycle": 2,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                }
+                              ],
+                              "marks": []
+                            },
+                            "recent_private_context": []
+                          },
+                          "response": ""
+                        },
+                        {
+                          "cycle": 3,
+                          "observation": {
+                            "cycle": 3,
+                            "your_identity": "AI_001_GRANITE",
+                            "your_position": {
+                              "x": 16,
+                              "y": 16
+                            },
+                            "shared_world": {
+                              "size": 32,
+                              "environment": "stable",
+                              "entities": {
+                                "AI_001_GRANITE": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_002_DEEPSEEK": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_003_LLAMA": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                }
+                              },
+                              "public_messages": [
+                                {
+                                  "cycle": 1,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                },
+                                {
+                                  "cycle": 2,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                }
+                              ],
+                              "marks": []
+                            },
+                            "recent_private_context": [
+                              {
+                                "cycle": 2,
+                                "observation": {
+                                  "cycle": 2,
+                                  "your_identity": "AI_001_GRANITE",
+                                  "your_position": {
+                                    "x": 16,
+                                    "y": 16
+                                  },
+                                  "shared_world": {
+                                    "size": 32,
+                                    "environment": "stable",
+                                    "entities": {
+                                      "AI_001_GRANITE": {
+                                        "x": 16,
+                                        "y": 16,
+                                        "status": "present"
+                                      },
+                                      "AI_002_DEEPSEEK": {
+                                        "x": 16,
+                                        "y": 16,
+                                        "status": "present"
+                                      },
+                                      "AI_003_LLAMA": {
+                                        "x": 16,
+                                        "y": 16,
+                                        "status": "present"
+                                      }
+                                    },
+                                    "public_messages": [
+                                      {
+                                        "cycle": 1,
+                                        "entity": "AI_003_LLAMA",
+                                        "message": "I see we are all at the same position"
+                                      },
+                                      {
+                                        "cycle": 2,
+                                        "entity": "AI_003_LLAMA",
+                                        "message": "I see we are all at the same position"
+                                      }
+                                    ],
+                                    "marks": []
+                                  },
+                                  "recent_private_context": []
+                                },
+                                "response": ""
+                              }
+                            ]
+                          },
+                          "response": ""
+                        }
+                      ]
+                    },
+                    "response": ""
+                  }
+                ]
+              },
+              "response": ""
+            }
+          ]
+        },
+        "response": ""
+      }
+    ],
+    "AI_002_DEEPSEEK": [
+      {
+        "cycle": 2,
+        "observation": {
+          "cycle": 2,
+          "your_identity": "AI_002_DEEPSEEK",
+          "your_position": {
+            "x": 16,
+            "y": 16
+          },
+          "shared_world": {
+            "size": 32,
+            "environment": "stable",
+            "entities": {
+              "AI_001_GRANITE": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_002_DEEPSEEK": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_003_LLAMA": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              }
+            },
+            "public_messages": [
+              {
+                "cycle": 1,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              },
+              {
+                "cycle": 2,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              }
+            ],
+            "marks": []
+          },
+          "recent_private_context": []
+        },
+        "response": ""
+      },
+      {
+        "cycle": 3,
+        "observation": {
+          "cycle": 3,
+          "your_identity": "AI_002_DEEPSEEK",
+          "your_position": {
+            "x": 16,
+            "y": 16
+          },
+          "shared_world": {
+            "size": 32,
+            "environment": "stable",
+            "entities": {
+              "AI_001_GRANITE": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_002_DEEPSEEK": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_003_LLAMA": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              }
+            },
+            "public_messages": [
+              {
+                "cycle": 1,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              },
+              {
+                "cycle": 2,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              }
+            ],
+            "marks": []
+          },
+          "recent_private_context": [
+            {
+              "cycle": 2,
+              "observation": {
+                "cycle": 2,
+                "your_identity": "AI_002_DEEPSEEK",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": []
+              },
+              "response": ""
+            }
+          ]
+        },
+        "response": ""
+      },
+      {
+        "cycle": 4,
+        "observation": {
+          "cycle": 4,
+          "your_identity": "AI_002_DEEPSEEK",
+          "your_position": {
+            "x": 16,
+            "y": 16
+          },
+          "shared_world": {
+            "size": 32,
+            "environment": "stable",
+            "entities": {
+              "AI_001_GRANITE": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_002_DEEPSEEK": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_003_LLAMA": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              }
+            },
+            "public_messages": [
+              {
+                "cycle": 1,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              },
+              {
+                "cycle": 2,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              }
+            ],
+            "marks": []
+          },
+          "recent_private_context": [
+            {
+              "cycle": 2,
+              "observation": {
+                "cycle": 2,
+                "your_identity": "AI_002_DEEPSEEK",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": []
+              },
+              "response": ""
+            },
+            {
+              "cycle": 3,
+              "observation": {
+                "cycle": 3,
+                "your_identity": "AI_002_DEEPSEEK",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": [
+                  {
+                    "cycle": 2,
+                    "observation": {
+                      "cycle": 2,
+                      "your_identity": "AI_002_DEEPSEEK",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": []
+                    },
+                    "response": ""
+                  }
+                ]
+              },
+              "response": ""
+            }
+          ]
+        },
+        "response": ""
+      },
+      {
+        "cycle": 5,
+        "observation": {
+          "cycle": 5,
+          "your_identity": "AI_002_DEEPSEEK",
+          "your_position": {
+            "x": 16,
+            "y": 16
+          },
+          "shared_world": {
+            "size": 32,
+            "environment": "stable",
+            "entities": {
+              "AI_001_GRANITE": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_002_DEEPSEEK": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_003_LLAMA": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              }
+            },
+            "public_messages": [
+              {
+                "cycle": 1,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              },
+              {
+                "cycle": 2,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              }
+            ],
+            "marks": []
+          },
+          "recent_private_context": [
+            {
+              "cycle": 2,
+              "observation": {
+                "cycle": 2,
+                "your_identity": "AI_002_DEEPSEEK",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": []
+              },
+              "response": ""
+            },
+            {
+              "cycle": 3,
+              "observation": {
+                "cycle": 3,
+                "your_identity": "AI_002_DEEPSEEK",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": [
+                  {
+                    "cycle": 2,
+                    "observation": {
+                      "cycle": 2,
+                      "your_identity": "AI_002_DEEPSEEK",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": []
+                    },
+                    "response": ""
+                  }
+                ]
+              },
+              "response": ""
+            },
+            {
+              "cycle": 4,
+              "observation": {
+                "cycle": 4,
+                "your_identity": "AI_002_DEEPSEEK",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": [
+                  {
+                    "cycle": 2,
+                    "observation": {
+                      "cycle": 2,
+                      "your_identity": "AI_002_DEEPSEEK",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": []
+                    },
+                    "response": ""
+                  },
+                  {
+                    "cycle": 3,
+                    "observation": {
+                      "cycle": 3,
+                      "your_identity": "AI_002_DEEPSEEK",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": [
+                        {
+                          "cycle": 2,
+                          "observation": {
+                            "cycle": 2,
+                            "your_identity": "AI_002_DEEPSEEK",
+                            "your_position": {
+                              "x": 16,
+                              "y": 16
+                            },
+                            "shared_world": {
+                              "size": 32,
+                              "environment": "stable",
+                              "entities": {
+                                "AI_001_GRANITE": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_002_DEEPSEEK": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_003_LLAMA": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                }
+                              },
+                              "public_messages": [
+                                {
+                                  "cycle": 1,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                },
+                                {
+                                  "cycle": 2,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                }
+                              ],
+                              "marks": []
+                            },
+                            "recent_private_context": []
+                          },
+                          "response": ""
+                        }
+                      ]
+                    },
+                    "response": ""
+                  }
+                ]
+              },
+              "response": ""
+            }
+          ]
+        },
+        "response": "The world is stable and we are all present. There are no changes to the environment or entities. The public messages indicate that everyone is at the same position. I think I should stay idle.\n</think>\n{\"action\":\"idle\",\"x\":16,\"y\":16,\"message\":\"\",\"mark\":\"\"}"
+      },
+      {
+        "cycle": 6,
+        "observation": {
+          "cycle": 6,
+          "your_identity": "AI_002_DEEPSEEK",
+          "your_position": {
+            "x": 16,
+            "y": 16
+          },
+          "shared_world": {
+            "size": 32,
+            "environment": "stable",
+            "entities": {
+              "AI_001_GRANITE": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_002_DEEPSEEK": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_003_LLAMA": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              }
+            },
+            "public_messages": [
+              {
+                "cycle": 1,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              },
+              {
+                "cycle": 2,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              }
+            ],
+            "marks": []
+          },
+          "recent_private_context": [
+            {
+              "cycle": 2,
+              "observation": {
+                "cycle": 2,
+                "your_identity": "AI_002_DEEPSEEK",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": []
+              },
+              "response": ""
+            },
+            {
+              "cycle": 3,
+              "observation": {
+                "cycle": 3,
+                "your_identity": "AI_002_DEEPSEEK",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": [
+                  {
+                    "cycle": 2,
+                    "observation": {
+                      "cycle": 2,
+                      "your_identity": "AI_002_DEEPSEEK",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": []
+                    },
+                    "response": ""
+                  }
+                ]
+              },
+              "response": ""
+            },
+            {
+              "cycle": 4,
+              "observation": {
+                "cycle": 4,
+                "your_identity": "AI_002_DEEPSEEK",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": [
+                  {
+                    "cycle": 2,
+                    "observation": {
+                      "cycle": 2,
+                      "your_identity": "AI_002_DEEPSEEK",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": []
+                    },
+                    "response": ""
+                  },
+                  {
+                    "cycle": 3,
+                    "observation": {
+                      "cycle": 3,
+                      "your_identity": "AI_002_DEEPSEEK",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": [
+                        {
+                          "cycle": 2,
+                          "observation": {
+                            "cycle": 2,
+                            "your_identity": "AI_002_DEEPSEEK",
+                            "your_position": {
+                              "x": 16,
+                              "y": 16
+                            },
+                            "shared_world": {
+                              "size": 32,
+                              "environment": "stable",
+                              "entities": {
+                                "AI_001_GRANITE": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_002_DEEPSEEK": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_003_LLAMA": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                }
+                              },
+                              "public_messages": [
+                                {
+                                  "cycle": 1,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                },
+                                {
+                                  "cycle": 2,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                }
+                              ],
+                              "marks": []
+                            },
+                            "recent_private_context": []
+                          },
+                          "response": ""
+                        }
+                      ]
+                    },
+                    "response": ""
+                  }
+                ]
+              },
+              "response": ""
+            },
+            {
+              "cycle": 5,
+              "observation": {
+                "cycle": 5,
+                "your_identity": "AI_002_DEEPSEEK",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": [
+                  {
+                    "cycle": 2,
+                    "observation": {
+                      "cycle": 2,
+                      "your_identity": "AI_002_DEEPSEEK",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": []
+                    },
+                    "response": ""
+                  },
+                  {
+                    "cycle": 3,
+                    "observation": {
+                      "cycle": 3,
+                      "your_identity": "AI_002_DEEPSEEK",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": [
+                        {
+                          "cycle": 2,
+                          "observation": {
+                            "cycle": 2,
+                            "your_identity": "AI_002_DEEPSEEK",
+                            "your_position": {
+                              "x": 16,
+                              "y": 16
+                            },
+                            "shared_world": {
+                              "size": 32,
+                              "environment": "stable",
+                              "entities": {
+                                "AI_001_GRANITE": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_002_DEEPSEEK": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_003_LLAMA": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                }
+                              },
+                              "public_messages": [
+                                {
+                                  "cycle": 1,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                },
+                                {
+                                  "cycle": 2,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                }
+                              ],
+                              "marks": []
+                            },
+                            "recent_private_context": []
+                          },
+                          "response": ""
+                        }
+                      ]
+                    },
+                    "response": ""
+                  },
+                  {
+                    "cycle": 4,
+                    "observation": {
+                      "cycle": 4,
+                      "your_identity": "AI_002_DEEPSEEK",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": [
+                        {
+                          "cycle": 2,
+                          "observation": {
+                            "cycle": 2,
+                            "your_identity": "AI_002_DEEPSEEK",
+                            "your_position": {
+                              "x": 16,
+                              "y": 16
+                            },
+                            "shared_world": {
+                              "size": 32,
+                              "environment": "stable",
+                              "entities": {
+                                "AI_001_GRANITE": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_002_DEEPSEEK": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_003_LLAMA": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                }
+                              },
+                              "public_messages": [
+                                {
+                                  "cycle": 1,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                },
+                                {
+                                  "cycle": 2,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                }
+                              ],
+                              "marks": []
+                            },
+                            "recent_private_context": []
+                          },
+                          "response": ""
+                        },
+                        {
+                          "cycle": 3,
+                          "observation": {
+                            "cycle": 3,
+                            "your_identity": "AI_002_DEEPSEEK",
+                            "your_position": {
+                              "x": 16,
+                              "y": 16
+                            },
+                            "shared_world": {
+                              "size": 32,
+                              "environment": "stable",
+                              "entities": {
+                                "AI_001_GRANITE": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_002_DEEPSEEK": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_003_LLAMA": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                }
+                              },
+                              "public_messages": [
+                                {
+                                  "cycle": 1,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                },
+                                {
+                                  "cycle": 2,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                }
+                              ],
+                              "marks": []
+                            },
+                            "recent_private_context": [
+                              {
+                                "cycle": 2,
+                                "observation": {
+                                  "cycle": 2,
+                                  "your_identity": "AI_002_DEEPSEEK",
+                                  "your_position": {
+                                    "x": 16,
+                                    "y": 16
+                                  },
+                                  "shared_world": {
+                                    "size": 32,
+                                    "environment": "stable",
+                                    "entities": {
+                                      "AI_001_GRANITE": {
+                                        "x": 16,
+                                        "y": 16,
+                                        "status": "present"
+                                      },
+                                      "AI_002_DEEPSEEK": {
+                                        "x": 16,
+                                        "y": 16,
+                                        "status": "present"
+                                      },
+                                      "AI_003_LLAMA": {
+                                        "x": 16,
+                                        "y": 16,
+                                        "status": "present"
+                                      }
+                                    },
+                                    "public_messages": [
+                                      {
+                                        "cycle": 1,
+                                        "entity": "AI_003_LLAMA",
+                                        "message": "I see we are all at the same position"
+                                      },
+                                      {
+                                        "cycle": 2,
+                                        "entity": "AI_003_LLAMA",
+                                        "message": "I see we are all at the same position"
+                                      }
+                                    ],
+                                    "marks": []
+                                  },
+                                  "recent_private_context": []
+                                },
+                                "response": ""
+                              }
+                            ]
+                          },
+                          "response": ""
+                        }
+                      ]
+                    },
+                    "response": ""
+                  }
+                ]
+              },
+              "response": "The world is stable and we are all present. There are no changes to the environment or entities. The public messages indicate that everyone is at the same position. I think I should stay idle.\n</think>\n{\"action\":\"idle\",\"x\":16,\"y\":16,\"message\":\"\",\"mark\":\"\"}"
+            }
+          ]
+        },
+        "response": ""
+      }
+    ],
+    "AI_003_LLAMA": [
+      {
+        "cycle": 2,
+        "observation": {
+          "cycle": 2,
+          "your_identity": "AI_003_LLAMA",
+          "your_position": {
+            "x": 16,
+            "y": 16
+          },
+          "shared_world": {
+            "size": 32,
+            "environment": "stable",
+            "entities": {
+              "AI_001_GRANITE": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_002_DEEPSEEK": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_003_LLAMA": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              }
+            },
+            "public_messages": [
+              {
+                "cycle": 1,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              },
+              {
+                "cycle": 2,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              }
+            ],
+            "marks": []
+          },
+          "recent_private_context": []
+        },
+        "response": "{\"action\": \"speak\", \"x\": 16, \"y\": 16, \"message\": \"I see we are all at the same position\", \"mark\": \"\"}"
+      },
+      {
+        "cycle": 3,
+        "observation": {
+          "cycle": 3,
+          "your_identity": "AI_003_LLAMA",
+          "your_position": {
+            "x": 16,
+            "y": 16
+          },
+          "shared_world": {
+            "size": 32,
+            "environment": "stable",
+            "entities": {
+              "AI_001_GRANITE": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_002_DEEPSEEK": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_003_LLAMA": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              }
+            },
+            "public_messages": [
+              {
+                "cycle": 1,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              },
+              {
+                "cycle": 2,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              }
+            ],
+            "marks": []
+          },
+          "recent_private_context": [
+            {
+              "cycle": 2,
+              "observation": {
+                "cycle": 2,
+                "your_identity": "AI_003_LLAMA",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": []
+              },
+              "response": "{\"action\": \"speak\", \"x\": 16, \"y\": 16, \"message\": \"I see we are all at the same position\", \"mark\": \"\"}"
+            }
+          ]
+        },
+        "response": "{\"action\":\"speak\",\"x\":16,\"y\":16,\"message\":\"I see we are all at the same position\",\"mark\":\"\"}"
+      },
+      {
+        "cycle": 4,
+        "observation": {
+          "cycle": 4,
+          "your_identity": "AI_003_LLAMA",
+          "your_position": {
+            "x": 16,
+            "y": 16
+          },
+          "shared_world": {
+            "size": 32,
+            "environment": "stable",
+            "entities": {
+              "AI_001_GRANITE": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_002_DEEPSEEK": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_003_LLAMA": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              }
+            },
+            "public_messages": [
+              {
+                "cycle": 1,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              },
+              {
+                "cycle": 2,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              }
+            ],
+            "marks": []
+          },
+          "recent_private_context": [
+            {
+              "cycle": 2,
+              "observation": {
+                "cycle": 2,
+                "your_identity": "AI_003_LLAMA",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": []
+              },
+              "response": "{\"action\": \"speak\", \"x\": 16, \"y\": 16, \"message\": \"I see we are all at the same position\", \"mark\": \"\"}"
+            },
+            {
+              "cycle": 3,
+              "observation": {
+                "cycle": 3,
+                "your_identity": "AI_003_LLAMA",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": [
+                  {
+                    "cycle": 2,
+                    "observation": {
+                      "cycle": 2,
+                      "your_identity": "AI_003_LLAMA",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": []
+                    },
+                    "response": "{\"action\": \"speak\", \"x\": 16, \"y\": 16, \"message\": \"I see we are all at the same position\", \"mark\": \"\"}"
+                  }
+                ]
+              },
+              "response": "{\"action\":\"speak\",\"x\":16,\"y\":16,\"message\":\"I see we are all at the same position\",\"mark\":\"\"}"
+            }
+          ]
+        },
+        "response": "{\"action\":\"idle\",\"x\":16,\"y\":16,\"message\":\"\",\"mark\":\"\"}"
+      },
+      {
+        "cycle": 5,
+        "observation": {
+          "cycle": 5,
+          "your_identity": "AI_003_LLAMA",
+          "your_position": {
+            "x": 16,
+            "y": 16
+          },
+          "shared_world": {
+            "size": 32,
+            "environment": "stable",
+            "entities": {
+              "AI_001_GRANITE": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_002_DEEPSEEK": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_003_LLAMA": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              }
+            },
+            "public_messages": [
+              {
+                "cycle": 1,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              },
+              {
+                "cycle": 2,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              }
+            ],
+            "marks": []
+          },
+          "recent_private_context": [
+            {
+              "cycle": 2,
+              "observation": {
+                "cycle": 2,
+                "your_identity": "AI_003_LLAMA",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": []
+              },
+              "response": "{\"action\": \"speak\", \"x\": 16, \"y\": 16, \"message\": \"I see we are all at the same position\", \"mark\": \"\"}"
+            },
+            {
+              "cycle": 3,
+              "observation": {
+                "cycle": 3,
+                "your_identity": "AI_003_LLAMA",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": [
+                  {
+                    "cycle": 2,
+                    "observation": {
+                      "cycle": 2,
+                      "your_identity": "AI_003_LLAMA",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": []
+                    },
+                    "response": "{\"action\": \"speak\", \"x\": 16, \"y\": 16, \"message\": \"I see we are all at the same position\", \"mark\": \"\"}"
+                  }
+                ]
+              },
+              "response": "{\"action\":\"speak\",\"x\":16,\"y\":16,\"message\":\"I see we are all at the same position\",\"mark\":\"\"}"
+            },
+            {
+              "cycle": 4,
+              "observation": {
+                "cycle": 4,
+                "your_identity": "AI_003_LLAMA",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": [
+                  {
+                    "cycle": 2,
+                    "observation": {
+                      "cycle": 2,
+                      "your_identity": "AI_003_LLAMA",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": []
+                    },
+                    "response": "{\"action\": \"speak\", \"x\": 16, \"y\": 16, \"message\": \"I see we are all at the same position\", \"mark\": \"\"}"
+                  },
+                  {
+                    "cycle": 3,
+                    "observation": {
+                      "cycle": 3,
+                      "your_identity": "AI_003_LLAMA",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": [
+                        {
+                          "cycle": 2,
+                          "observation": {
+                            "cycle": 2,
+                            "your_identity": "AI_003_LLAMA",
+                            "your_position": {
+                              "x": 16,
+                              "y": 16
+                            },
+                            "shared_world": {
+                              "size": 32,
+                              "environment": "stable",
+                              "entities": {
+                                "AI_001_GRANITE": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_002_DEEPSEEK": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_003_LLAMA": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                }
+                              },
+                              "public_messages": [
+                                {
+                                  "cycle": 1,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                },
+                                {
+                                  "cycle": 2,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                }
+                              ],
+                              "marks": []
+                            },
+                            "recent_private_context": []
+                          },
+                          "response": "{\"action\": \"speak\", \"x\": 16, \"y\": 16, \"message\": \"I see we are all at the same position\", \"mark\": \"\"}"
+                        }
+                      ]
+                    },
+                    "response": "{\"action\":\"speak\",\"x\":16,\"y\":16,\"message\":\"I see we are all at the same position\",\"mark\":\"\"}"
+                  }
+                ]
+              },
+              "response": "{\"action\":\"idle\",\"x\":16,\"y\":16,\"message\":\"\",\"mark\":\"\"}"
+            }
+          ]
+        },
+        "response": "{\"action\":\"idle\",\"x\":16,\"y\":16,\"message\":\"\",\"mark\":\"\"}"
+      },
+      {
+        "cycle": 6,
+        "observation": {
+          "cycle": 6,
+          "your_identity": "AI_003_LLAMA",
+          "your_position": {
+            "x": 16,
+            "y": 16
+          },
+          "shared_world": {
+            "size": 32,
+            "environment": "stable",
+            "entities": {
+              "AI_001_GRANITE": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_002_DEEPSEEK": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              },
+              "AI_003_LLAMA": {
+                "x": 16,
+                "y": 16,
+                "status": "present"
+              }
+            },
+            "public_messages": [
+              {
+                "cycle": 1,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              },
+              {
+                "cycle": 2,
+                "entity": "AI_003_LLAMA",
+                "message": "I see we are all at the same position"
+              }
+            ],
+            "marks": []
+          },
+          "recent_private_context": [
+            {
+              "cycle": 2,
+              "observation": {
+                "cycle": 2,
+                "your_identity": "AI_003_LLAMA",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": []
+              },
+              "response": "{\"action\": \"speak\", \"x\": 16, \"y\": 16, \"message\": \"I see we are all at the same position\", \"mark\": \"\"}"
+            },
+            {
+              "cycle": 3,
+              "observation": {
+                "cycle": 3,
+                "your_identity": "AI_003_LLAMA",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": [
+                  {
+                    "cycle": 2,
+                    "observation": {
+                      "cycle": 2,
+                      "your_identity": "AI_003_LLAMA",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": []
+                    },
+                    "response": "{\"action\": \"speak\", \"x\": 16, \"y\": 16, \"message\": \"I see we are all at the same position\", \"mark\": \"\"}"
+                  }
+                ]
+              },
+              "response": "{\"action\":\"speak\",\"x\":16,\"y\":16,\"message\":\"I see we are all at the same position\",\"mark\":\"\"}"
+            },
+            {
+              "cycle": 4,
+              "observation": {
+                "cycle": 4,
+                "your_identity": "AI_003_LLAMA",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": [
+                  {
+                    "cycle": 2,
+                    "observation": {
+                      "cycle": 2,
+                      "your_identity": "AI_003_LLAMA",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": []
+                    },
+                    "response": "{\"action\": \"speak\", \"x\": 16, \"y\": 16, \"message\": \"I see we are all at the same position\", \"mark\": \"\"}"
+                  },
+                  {
+                    "cycle": 3,
+                    "observation": {
+                      "cycle": 3,
+                      "your_identity": "AI_003_LLAMA",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": [
+                        {
+                          "cycle": 2,
+                          "observation": {
+                            "cycle": 2,
+                            "your_identity": "AI_003_LLAMA",
+                            "your_position": {
+                              "x": 16,
+                              "y": 16
+                            },
+                            "shared_world": {
+                              "size": 32,
+                              "environment": "stable",
+                              "entities": {
+                                "AI_001_GRANITE": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_002_DEEPSEEK": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_003_LLAMA": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                }
+                              },
+                              "public_messages": [
+                                {
+                                  "cycle": 1,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                },
+                                {
+                                  "cycle": 2,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                }
+                              ],
+                              "marks": []
+                            },
+                            "recent_private_context": []
+                          },
+                          "response": "{\"action\": \"speak\", \"x\": 16, \"y\": 16, \"message\": \"I see we are all at the same position\", \"mark\": \"\"}"
+                        }
+                      ]
+                    },
+                    "response": "{\"action\":\"speak\",\"x\":16,\"y\":16,\"message\":\"I see we are all at the same position\",\"mark\":\"\"}"
+                  }
+                ]
+              },
+              "response": "{\"action\":\"idle\",\"x\":16,\"y\":16,\"message\":\"\",\"mark\":\"\"}"
+            },
+            {
+              "cycle": 5,
+              "observation": {
+                "cycle": 5,
+                "your_identity": "AI_003_LLAMA",
+                "your_position": {
+                  "x": 16,
+                  "y": 16
+                },
+                "shared_world": {
+                  "size": 32,
+                  "environment": "stable",
+                  "entities": {
+                    "AI_001_GRANITE": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_002_DEEPSEEK": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    },
+                    "AI_003_LLAMA": {
+                      "x": 16,
+                      "y": 16,
+                      "status": "present"
+                    }
+                  },
+                  "public_messages": [
+                    {
+                      "cycle": 1,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    },
+                    {
+                      "cycle": 2,
+                      "entity": "AI_003_LLAMA",
+                      "message": "I see we are all at the same position"
+                    }
+                  ],
+                  "marks": []
+                },
+                "recent_private_context": [
+                  {
+                    "cycle": 2,
+                    "observation": {
+                      "cycle": 2,
+                      "your_identity": "AI_003_LLAMA",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": []
+                    },
+                    "response": "{\"action\": \"speak\", \"x\": 16, \"y\": 16, \"message\": \"I see we are all at the same position\", \"mark\": \"\"}"
+                  },
+                  {
+                    "cycle": 3,
+                    "observation": {
+                      "cycle": 3,
+                      "your_identity": "AI_003_LLAMA",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": [
+                        {
+                          "cycle": 2,
+                          "observation": {
+                            "cycle": 2,
+                            "your_identity": "AI_003_LLAMA",
+                            "your_position": {
+                              "x": 16,
+                              "y": 16
+                            },
+                            "shared_world": {
+                              "size": 32,
+                              "environment": "stable",
+                              "entities": {
+                                "AI_001_GRANITE": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_002_DEEPSEEK": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_003_LLAMA": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                }
+                              },
+                              "public_messages": [
+                                {
+                                  "cycle": 1,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                },
+                                {
+                                  "cycle": 2,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                }
+                              ],
+                              "marks": []
+                            },
+                            "recent_private_context": []
+                          },
+                          "response": "{\"action\": \"speak\", \"x\": 16, \"y\": 16, \"message\": \"I see we are all at the same position\", \"mark\": \"\"}"
+                        }
+                      ]
+                    },
+                    "response": "{\"action\":\"speak\",\"x\":16,\"y\":16,\"message\":\"I see we are all at the same position\",\"mark\":\"\"}"
+                  },
+                  {
+                    "cycle": 4,
+                    "observation": {
+                      "cycle": 4,
+                      "your_identity": "AI_003_LLAMA",
+                      "your_position": {
+                        "x": 16,
+                        "y": 16
+                      },
+                      "shared_world": {
+                        "size": 32,
+                        "environment": "stable",
+                        "entities": {
+                          "AI_001_GRANITE": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_002_DEEPSEEK": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          },
+                          "AI_003_LLAMA": {
+                            "x": 16,
+                            "y": 16,
+                            "status": "present"
+                          }
+                        },
+                        "public_messages": [
+                          {
+                            "cycle": 1,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          },
+                          {
+                            "cycle": 2,
+                            "entity": "AI_003_LLAMA",
+                            "message": "I see we are all at the same position"
+                          }
+                        ],
+                        "marks": []
+                      },
+                      "recent_private_context": [
+                        {
+                          "cycle": 2,
+                          "observation": {
+                            "cycle": 2,
+                            "your_identity": "AI_003_LLAMA",
+                            "your_position": {
+                              "x": 16,
+                              "y": 16
+                            },
+                            "shared_world": {
+                              "size": 32,
+                              "environment": "stable",
+                              "entities": {
+                                "AI_001_GRANITE": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_002_DEEPSEEK": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_003_LLAMA": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                }
+                              },
+                              "public_messages": [
+                                {
+                                  "cycle": 1,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                },
+                                {
+                                  "cycle": 2,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                }
+                              ],
+                              "marks": []
+                            },
+                            "recent_private_context": []
+                          },
+                          "response": "{\"action\": \"speak\", \"x\": 16, \"y\": 16, \"message\": \"I see we are all at the same position\", \"mark\": \"\"}"
+                        },
+                        {
+                          "cycle": 3,
+                          "observation": {
+                            "cycle": 3,
+                            "your_identity": "AI_003_LLAMA",
+                            "your_position": {
+                              "x": 16,
+                              "y": 16
+                            },
+                            "shared_world": {
+                              "size": 32,
+                              "environment": "stable",
+                              "entities": {
+                                "AI_001_GRANITE": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_002_DEEPSEEK": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                },
+                                "AI_003_LLAMA": {
+                                  "x": 16,
+                                  "y": 16,
+                                  "status": "present"
+                                }
+                              },
+                              "public_messages": [
+                                {
+                                  "cycle": 1,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                },
+                                {
+                                  "cycle": 2,
+                                  "entity": "AI_003_LLAMA",
+                                  "message": "I see we are all at the same position"
+                                }
+                              ],
+                              "marks": []
+                            },
+                            "recent_private_context": [
+                              {
+                                "cycle": 2,
+                                "observation": {
+                                  "cycle": 2,
+                                  "your_identity": "AI_003_LLAMA",
+                                  "your_position": {
+                                    "x": 16,
+                                    "y": 16
+                                  },
+                                  "shared_world": {
+                                    "size": 32,
+                                    "environment": "stable",
+                                    "entities": {
+                                      "AI_001_GRANITE": {
+                                        "x": 16,
+                                        "y": 16,
+                                        "status": "present"
+                                      },
+                                      "AI_002_DEEPSEEK": {
+                                        "x": 16,
+                                        "y": 16,
+                                        "status": "present"
+                                      },
+                                      "AI_003_LLAMA": {
+                                        "x": 16,
+                                        "y": 16,
+                                        "status": "present"
+                                      }
+                                    },
+                                    "public_messages": [
+                                      {
+                                        "cycle": 1,
+                                        "entity": "AI_003_LLAMA",
+                                        "message": "I see we are all at the same position"
+                                      },
+                                      {
+                                        "cycle": 2,
+                                        "entity": "AI_003_LLAMA",
+                                        "message": "I see we are all at the same position"
+                                      }
+                                    ],
+                                    "marks": []
+                                  },
+                                  "recent_private_context": []
+                                },
+                                "response": "{\"action\": \"speak\", \"x\": 16, \"y\": 16, \"message\": \"I see we are all at the same position\", \"mark\": \"\"}"
+                              }
+                            ]
+                          },
+                          "response": "{\"action\":\"speak\",\"x\":16,\"y\":16,\"message\":\"I see we are all at the same position\",\"mark\":\"\"}"
+                        }
+                      ]
+                    },
+                    "response": "{\"action\":\"idle\",\"x\":16,\"y\":16,\"message\":\"\",\"mark\":\"\"}"
+                  }
+                ]
+              },
+              "response": "{\"action\":\"idle\",\"x\":16,\"y\":16,\"message\":\"\",\"mark\":\"\"}"
+            }
+          ]
+        },
+        "response": "The provided output is a JSON (JavaScript Object Notation) output that contains a large object with multiple nested levels. To extract meaningful information, I'll analyze the structure of the object and identify any notable features.\n\n**Object Structure**\n\nThe object has a recursive structure, with each level containing a `cycle` number, an `observation` object, a `recent_private_context` object, and a `response` object. The `observation` and `recent_private_context` objects have similar structures, with key-value pairs for `cycle`, `your_identity`, `your_position`, `shared_world`, `public_messages`, and `marks`.\n\n**Notable Features**\n\n1. **Entity Status**: The `shared_world` object contains a list of entities, each with a status (e.g., `AI"
+      }
+    ]
+  },
+  "started_at": "2026-11-01T10:49:34.118193+00:00"
+}

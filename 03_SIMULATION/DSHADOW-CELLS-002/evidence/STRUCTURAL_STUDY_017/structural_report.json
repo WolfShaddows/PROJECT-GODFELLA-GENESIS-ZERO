@@ -1,0 +1,54 @@
+{
+  "experiment": "017_STRUCTURAL_RATIOS",
+  "rule": 110,
+  "observations": 4,
+  "mean_component_size_range": 0.00033836900000006054,
+  "mean_empty_gap_range": 0.00020573600000006742,
+  "interpretation": "Descriptive stability across sampled observations; no causal mechanism established.",
+  "results": [
+    {
+      "generation": 284970,
+      "active_cells": 168417,
+      "components": 62181,
+      "spatial_span": 285010,
+      "mean_component_size": 2.708496164,
+      "mean_empty_gap": 1.875088453,
+      "components_per_1000_positions": 218.171292235,
+      "components_per_1000_active_cells": 369.208571581,
+      "active_cells_per_component": 2.708496164
+    },
+    {
+      "generation": 307720,
+      "active_cells": 181871,
+      "components": 67146,
+      "spatial_span": 307760,
+      "mean_component_size": 2.708590236,
+      "mean_empty_gap": 1.874882717,
+      "components_per_1000_positions": 218.17650117,
+      "components_per_1000_active_cells": 369.195748635,
+      "active_cells_per_component": 2.708590236
+    },
+    {
+      "generation": 377360,
+      "active_cells": 223011,
+      "components": 82345,
+      "spatial_span": 377400,
+      "mean_component_size": 2.708251867,
+      "mean_empty_gap": 1.874927135,
+      "components_per_1000_positions": 218.190249073,
+      "components_per_1000_active_cells": 369.241875961,
+      "active_cells_per_component": 2.708251867
+    },
+    {
+      "generation": 419760,
+      "active_cells": 248065,
+      "components": 91594,
+      "spatial_span": 419800,
+      "mean_component_size": 2.708310588,
+      "mean_empty_gap": 1.874979529,
+      "components_per_1000_positions": 218.184849929,
+      "components_per_1000_active_cells": 369.233870155,
+      "active_cells_per_component": 2.708310588
+    }
+  ]
+}
